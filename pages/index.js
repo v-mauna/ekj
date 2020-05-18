@@ -1,7 +1,23 @@
-import Head from 'next/head'
+import Home from './home'
+import Layout from '../components/layout'
+import Articles from './articles'
+const Index = () => (
+  <Layout>
+    <div>
+      <Home />
+    </div>
 
-function HomePage() {
-  return <div>Welcome to Next.js!</div>
-}
+    <style jsx global>{`
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+    `}</style>
+  </Layout>
+)
 
-export default HomePage
+export default Index
