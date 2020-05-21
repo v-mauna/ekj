@@ -1,6 +1,5 @@
 import Home from './home'
 import Layout from '../components/layout'
-import Articles from './articles'
 const Index = () => (
   <Layout>
     <div>

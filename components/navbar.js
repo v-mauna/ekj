@@ -21,7 +21,7 @@ const Navbar = () => {
             margin-top: 0;
           }
           #name {
-            margin: 2.5em 1em 0 2em;
+            margin-top: 2.5em;
             letter-spacing: 6px;
             width: 20%;
             font-family: 'Arimo', sans-serif;
@@ -31,7 +31,6 @@ const Navbar = () => {
           li {
             margin: 1em;
           }
-
           a {
             text-decoration: none;
             color: black;
@@ -48,12 +47,12 @@ const Navbar = () => {
         href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
       />
       <div className='navBar'>
-        <h1 id='name'>Ellen Killoran</h1>
+       
         <ul id='topNav'>
           <li>
             <Link href='/'>
               <a id='link' title='Home'>
-                Home
+              <h1 id='name'>Ellen Killoran</h1>
               </a>
             </Link>{' '}
           </li>
@@ -65,9 +64,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href='/articles'>
-              <a id='link' title='Articles'>
-                Articles
+            <Link href='/publications'>
+              <a id='link' title='Publications'>
+                Publications
               </a>
             </Link>{' '}
           </li>

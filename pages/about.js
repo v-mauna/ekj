@@ -6,18 +6,16 @@ const About = () => (
   <div className='container'>
     <style jsx>
       {`
-        .container {
-          position: absolute;
-          left: 25%;
-          top: 10%;
-          margin-left: 2em;
-          font-size: 16px;
-          width: 50vw;
-          line-height: 2em;
-          justify-content: center;
-          align-content: center;
-          text-align: left;
-        }
+      .container {
+        position: absolute;
+        top:25%;
+        font-size: 16px;
+        width: 100vw;
+        line-height: 2em;
+        justify-content: center;
+        align-content: center;
+        text-align: left;
+      }
         p {
           font-family: 'Spectral', serif;
           font-weight: 550;

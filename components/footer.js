@@ -8,7 +8,8 @@ const Footer = () => (
           justify-content: center;
           align-content: center;
           text-align: center;
-          width: 100vw;
+          width: 100%;
+          display: block;
         }
 
         #footerName{
