@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import EKFL from './EKFullLength.jpg'
-
+import RS from './rolling_stone_logo.png'
+import CrimeOnline from './CrimeOnlinePng.png'
 const Home = () => (
   <div className='container'>
     <style jsx>
@@ -35,6 +36,18 @@ const Home = () => (
           align-self: center;
     
         }
+        #media{
+          text-align: right;
+          <div id='rollingStone'/>
+        }
+        
+        #rollingStone{
+          width: 20%;
+          margin-right: 5%;
+        }
+        #crimeOnline{
+          width: 15%;
+        }
       `}
 
     </style>
@@ -50,6 +63,13 @@ const Home = () => (
       a documentary series that aired alongside the Lifetime movie "Manson's
       Lost Girls."
     </p>
+    <div>
+    <p id='media'>/as seen in/</p>
+    <div id='logos'>
+    <img id='rollingStone' src={RS}/>
+    <img id='crimeOnline' src={CrimeOnline}/>
+    </div></div>
+
   </div>
 )
 

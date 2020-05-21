@@ -11,6 +11,8 @@ const Index = () => (
       body {
         padding: 0;
         margin: 0;
+        box-sizing: border-box;
+        padding-bottom: 174px;
       }
       * {
         box-sizing: border-box;

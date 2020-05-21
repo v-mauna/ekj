@@ -17,7 +17,6 @@ const Navbar = () => {
             text-align: left;
             flex-direction: column;
             width: 20%;
-            height: 70vh;
             margin-top: 0;
           }
           #name {

@@ -4,12 +4,16 @@ const Footer = () => (
      
       {`
         .footer {
-          height: 15vh;
-          justify-content: center;
-          align-content: center;
+          position:fixed;
+          left:0px;
+          bottom:0px;
+          height:100px;
+          width:100%;
+          background:#0001;
+          color: black;
           text-align: center;
-          width: 100%;
-          display: block;
+          justify-content: center;
+
         }
 
         #footerName{
