@@ -5,10 +5,6 @@ const About = () => (
     <Layout>     
   <div className='container'>
     <style jsx>
-      <link
-        href='https://fonts.googleapis.com/css2?family=Arimo&family=Jost:ital,wght@0,400;1,200&family=Karla&family=Spectral&display=swap'
-        rel='stylesheet'
-      />
       {`
         .container {
           position: absolute;
@@ -29,7 +25,7 @@ const About = () => (
       `}
     </style>
     <Head>
-      <title>Ellen Killoran</title>
+      <title>Ellen Killoran: About</title>
     </Head>
     <p>
       Ellen is a seasoned journalist and former media & entertainment reporter

@@ -22,7 +22,7 @@ const Home = () => (
         }
         p {
           font-family: 'Spectral', serif;
-          font-weight: 550;
+          font-weight: 500;
         }
       `}
     </style>

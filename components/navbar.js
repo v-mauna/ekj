@@ -51,23 +51,31 @@ const Navbar = () => {
         <h1 id='name'>Ellen Killoran</h1>
         <ul id='topNav'>
           <li>
-            <Link id='link' href='/'>
-              <a>Home</a>
+            <Link href='/'>
+              <a id='link' title='Home'>
+                Home
+              </a>
             </Link>{' '}
           </li>
           <li>
-            <Link id='link' href='/about'>
-              <a>About</a>
+            <Link href='/about'>
+              <a i='link' title='About'>
+                About
+              </a>
             </Link>
           </li>
           <li>
-            <Link id='link' href='/articles'>
-              <a>Articles</a>
+            <Link href='/articles'>
+              <a id='link' title='Articles'>
+                Articles
+              </a>
             </Link>{' '}
           </li>
           <li>
-            <Link id='link' href='/contact'>
-              <a>Contact</a>
+            <Link href='/contact'>
+              <a id='link' title='Contact'>
+                Contact
+              </a>
             </Link>
           </li>
         </ul>

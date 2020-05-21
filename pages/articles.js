@@ -4,7 +4,7 @@ const Articles = () => (
   <Layout>
   <div className='container'>
     <Head>
-      <title>Ellen Killoran - Articles</title>
+      <title>Ellen Killoran: Articles</title>
     </Head>
     <style jsx>
     {`
@@ -21,6 +21,7 @@ const Articles = () => (
       text-align: left;
     }
     p {
+  
       font-family: 'Spectral', serif;
       font-weight: 550;
     }

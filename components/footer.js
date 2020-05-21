@@ -1,14 +1,7 @@
 const Footer = () => (
   <footer className='footer'>
     <style jsx>
-      <link
-        href='https://fonts.googleapis.com/css2?family=Arimo&family=Jost:ital,wght@0,400;1,200&family=Karla&family=Spectral&display=swap'
-        rel='stylesheet'
-      />
-      <link
-        rel='stylesheet'
-        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
-      />
+     
       {`
         .footer {
           height: 15vh;
