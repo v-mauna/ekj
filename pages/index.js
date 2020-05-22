@@ -23,9 +23,6 @@ const Index = () => (
       *:after {
         box-sizing: inherit;
       }
-      @media(max-width: 375px) {
-        *{display: block;
-        }
       }
     `}</style>
   </Layout>

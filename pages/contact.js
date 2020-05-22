@@ -91,6 +91,7 @@ const Contact = () => (
             src='https://kit.fontawesome.com/6f92a9206c.js'
             crossorigin='anonymous'
           ></script>
+          <title>Ellen Killoran || Contact</title>
         </Head>
         <div>
           <img src={Headshot} id='contact-img' />

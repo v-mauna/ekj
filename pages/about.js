@@ -40,7 +40,7 @@ const About = () => (
         `}
       </style>
       <Head>
-        <title>Ellen Killoran</title>
+        <title>Ellen Killoran || About</title>
       </Head>
       <img alt='Full Length Image of Ellen Killoran' src={EKFL} />
       <p>
