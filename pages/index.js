@@ -16,7 +16,6 @@ const Index = () => (
         margin: 0;
         margin-bottom: auto;
         box-sizing: border-box;
-        padding-bottom: 174px;
       }
       *,
       *:before,

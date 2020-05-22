@@ -10,28 +10,25 @@ const Publications = () => (
     <div id='publications'>
       <div id='container'>
         <style jsx>
-          {`#publications{
-            display: block;
+          {`
+            #publications {
+              display: block;
+            }
 
-          }
-            #container{
-              position: absolute;
-              margin-bottom: auto;
-              top: 7.5%;
-              left: 15%;
-              margin-left: 2em;
+            #container {
+              display: flex;
+              flex-direction: column;
+              box-sizing: border-box;
+              margin-left: 25%;
+              margin-top: -20%;
               font-size: 16px;
-              width: 70vw;
+              width: 50vw;
               line-height: 2em;
-              min-height: 100vh;
-              padding: 0;
-              margin-bottom: auto;
               justify-content: center;
               align-content: center;
               text-align: left;
-              min-height: 100vh;
+              margin-bottom: 5%;
             }
-
           `}
         </style>
         <Head>

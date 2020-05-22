@@ -5,25 +5,29 @@ import CrimeOnline from '../logos/CrimeOnlinePng.png'
 import Forbes from '../logos/forbes.png'
 import Maxim from '../logos/maxim.png'
 const Home = () => (
+  <div className='wrapper'>
   <div className='container'>
     <style jsx>
       <link
         href='https://fonts.googleapis.com/css2?family=Arimo&family=Jost:ital,wght@0,400;1,200&family=Karla&family=Spectral&display=swap'
         rel='stylesheet'
       />
-      {`
+      {`.wrapper{
+        display: block;
+      }
         .container {
-          position: absolute;
-          left: 25%;
-          margin-left: 2em;
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+          margin-left: 25%;
+          margin-top: -20%;
           font-size: 16px;
           width: 50vw;
-          min-height: 100vh;
-          top: 10%;
           line-height: 2em;
           justify-content: center;
           align-content: center;
           text-align: left;
+          margin-bottom: 5%;
         }
         p {
           font-family: 'Spectral', serif;
@@ -62,11 +66,13 @@ const Home = () => (
       `}
     </style>
     <Head>
+        <meta name="description" content="Ellen Killoran is a seasoned journalist and former media & entertainment reported features in Forbes, Rolling Stone,
+        IBTimes, Maxim, Crime Online, & The L Magazine"/>
       <title>Ellen Killoran || Home</title>
     </Head>
     <img alt='Full Length Image of Ellen Killoran' src={EKFL} />
     <p>
-      Ellen is a seasoned journalist and former media & entertainment reporter
+      Ellen Killoran is a seasoned journalist and former media & entertainment reporter
       with a taste for true crime. Formerly a senior editor at IBTimes, her work
       has appeared in Forbes, Rolling Stone, Maxim, NYMag, Indiewire, and more.
       She co-produced the HBO documentary "Youth Knows No Pain" and appeared in
@@ -81,6 +87,7 @@ const Home = () => (
         <img id='forbes' src={Forbes} />
       </div>
     </div>
+  </div>
   </div>
 )
 

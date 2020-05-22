@@ -4,6 +4,7 @@ import EKFL from '../photos/CrimeCon.jpg'
 
 const About = () => (
   <Layout>
+  <div className='wrapper'>
     <div className='container'>
       <style jsx>
         <link
@@ -11,12 +12,15 @@ const About = () => (
           rel='stylesheet'
         />
         {`
+        .wrapper{
+          display: block;
+        }
           .container {
-            position: absolute;
+            display: flex;
+            flex-direction: column;
             box-sizing: border-box;
-            left: 25%;
-            top: 10%;
-            margin-left: 2em;
+            margin-left: 25%;
+            margin-top: -20%;
             font-size: 16px;
             width: 50vw;
             line-height: 2em;
@@ -29,6 +33,7 @@ const About = () => (
             font-weight: 500;
             width: 80%;
             margin-left: 10%;
+            margin-bottom: 10%;
           }
           img {
             width: 50vw;
@@ -51,6 +56,7 @@ const About = () => (
         appeared in a documentary series that aired alongside the Lifetime movie
         "Manson's Lost Girls."
       </p>
+    </div>
     </div>
   </Layout>
 )

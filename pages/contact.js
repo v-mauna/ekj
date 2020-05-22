@@ -5,28 +5,27 @@ import Layout from '../components/layout'
 
 const Contact = () => (
   <Layout>
-    <div className='contact'>
+    <div id='wrapper'>
       <div className='container'>
         <style jsx>
           {`
-            .contact {
+            #wrapper {
               display: block;
-              min-height: 100vh;
-              padding: 0;
-              margin-bottom: auto;
             }
-            .container {
 
-              position: absolute;
-              left: 25%;
-              margin-left: 2em;
+            .container {
+              display: flex;
+              flex-direction: column;
+              box-sizing: border-box;
+              margin-left: 25%;
+              margin-top: -20%;
               font-size: 16px;
-              width:72vw;
-              top: 10%;
-              line-height: 1em;
+              width: 80vw;
+              line-height: 2em;
               justify-content: center;
               align-content: center;
               text-align: left;
+              margin-bottom: 5%;
             }
             p {
               font-family: 'Spectral', serif;
@@ -35,8 +34,7 @@ const Contact = () => (
               margin-left: 10%;
             }
             #contact-img {
-              width: 40%;
-              height: 50%;
+              width: 30%;
               padding-top: 2em;
               padding-bottom: 2em;
               align-content: center;
@@ -50,8 +48,8 @@ const Contact = () => (
 
             #contact-info {
               position: absolute;
-              top: 40%;
-              left: 40%;
+              top: 30%;
+              left: 50%;
             }
             #tipsEmail {
               font-size: 22px;
