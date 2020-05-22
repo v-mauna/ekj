@@ -1,7 +1,9 @@
 import Head from 'next/head'
-import EKFL from './EKFullLength.jpg'
-import RS from './rolling_stone_logo.png'
-import CrimeOnline from './CrimeOnlinePng.png'
+import EKFL from '../photos/EKFullLength.jpg'
+import RS from '../logos/rolling_stone_logo.png'
+import CrimeOnline from '../logos/CrimeOnlinePng.png'
+import Forbes from '../logos/forbes.png'
+import Maxim from '../logos/maxim.png'
 const Home = () => (
   <div className='container'>
     <style jsx>
@@ -38,15 +40,24 @@ const Home = () => (
         }
         #media{
           text-align: right;
-          <div id='rollingStone'/>
+          align-content: center;
         }
         
         #rollingStone{
           width: 20%;
           margin-right: 5%;
+          margin-left: 10%;
         }
         #crimeOnline{
+          width: 10%;
+        }
+        #forbes{
           width: 15%;
+          margin-left: 5%;
+        }
+        #maxim{
+          width: 12.5%;
+          margin-left: 5%;
         }
       `}
 
@@ -68,6 +79,8 @@ const Home = () => (
     <div id='logos'>
     <img id='rollingStone' src={RS}/>
     <img id='crimeOnline' src={CrimeOnline}/>
+    <img id='forbes' src={Forbes}/>
+    <img id='maxim' src={Maxim}/>
     </div></div>
 
   </div>

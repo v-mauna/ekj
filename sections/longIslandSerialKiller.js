@@ -1,7 +1,6 @@
 
-import GilgoBeach from '../pages/Gilgo-beach-killing-leather-belt.jpg'
-import MaureenBarnes from '../pages/Maureen-Brainard-Barnes.jpg'
-
+import MaureenBarnes from '../photos/Maureen-Brainard-Barnes.jpg'
+import ShannanGilbert from '../photos/ShannanGilbert.jpg'
 const LongIsland = () => {
     return (
       <section>
@@ -43,8 +42,13 @@ const LongIsland = () => {
   
             .pub-img {
               width: 30%;
-              margin-top: 3em;
+              margin-top: 1em;
               margin-left: 10%;
+            }
+            .pub-img:hover{
+              transform: scale(1.5);
+              padding: 10% 0 7.5% 7.5%;
+              display: block;
             }
           `}
         </style>
@@ -77,7 +81,7 @@ const LongIsland = () => {
           </a>
         </div>
         <div>
-          <img src={GilgoBeach} className='pub-img' />
+          <img src={ShannanGilbert} className='pub-img' />
           <p id='pub-desc'>
             A decade later, Suffolk County police commissioner says cops are
             'not certain' Shannan Gilbert wasn't a victim of the Long Island

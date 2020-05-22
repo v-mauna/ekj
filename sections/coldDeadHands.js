@@ -1,3 +1,5 @@
+import StevenKubacki from '../photos/StevenKubacki.jpg'
+
 const ColdDeadHands = () => {
   return (
     <section>
@@ -37,16 +39,26 @@ const ColdDeadHands = () => {
             color: rgba(0, 0, 0, 0.5);
           }
 
-          .pub-img {
-            width: 30%;
-            margin-top: 3em;
+          #pub-img {
+            height: 289px;
             margin-left: 10%;
+          }
+          #pub-img:hover{
+            transform: scale(1.5);
+            padding: 7.5% 0 7.5% 7.5%;
+            display: block;
           }
         `}
       </style>
       <div>
         <h4 id='header'>Cold Dead Hands</h4>
-
+        <div id='images'>
+          <img
+            src={StevenKubacki}
+            alt='Steven Kubacki Newspaper Clipping'
+            id='pub-img'
+          />
+        </div>
         <p id='pub-desc'>The Misappearance of Steven Kubacki</p>
         <a
           title='Personal Investigative Project on Substack'

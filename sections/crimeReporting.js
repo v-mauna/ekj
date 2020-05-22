@@ -1,3 +1,5 @@
+import HartFamily from '../photos/HartFamily.jpg'
+
 const CrimeReporting = () => {
   return (
     <section>
@@ -39,14 +41,23 @@ const CrimeReporting = () => {
 
           .pub-img {
             width: 30%;
-            margin-top: 3em;
+            margin-top: 0;
             margin-left: 10%;
+          }
+          #hover-text{
+            display: none;
+          }
+          .pub-img:hover{
+            transform: scale(1.75);
+            padding: 5% 0 7.5% 10%;
+            display: block;
           }
         `}
       </style>
       <div>
         <h4 id='header'>Crime Reporting</h4>
         <div>
+        <img src={HartFamily} alt='Hart Family Image' className='pub-img'/>
           <p id='pub-desc'>
             Did Jennifer Hart plan to kill her family? A look back at
             allegations that followed mothers found dead with adopted children
@@ -59,8 +70,6 @@ const CrimeReporting = () => {
           >
             Crime Online
           </a>
-        </div>
-        <div>
           <p id='pub-desc'>
             Hart Family Murder-Suicide: Missing Hannah Hart may have no
             biological family DNA to compare to remains found near crash site

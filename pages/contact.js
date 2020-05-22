@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Headshot from './EKHeadshot.jpg'
+import Headshot from '../photos/EKHeadshot.jpg'
 import Layout from '../components/layout'
 
 const Contact = () => (

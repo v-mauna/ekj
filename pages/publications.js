@@ -12,11 +12,11 @@ const Publications = () => (
         {`
           .container {
             position: absolute;
-            left: 25%;
+            left: 15%;
             top: 10%;
             margin-left: 2em;
             font-size: 16px;
-            width: 50vw;
+            width: 70vw;
             line-height: 2em;
             justify-content: center;
             align-content: center;
