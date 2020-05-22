@@ -1,5 +1,6 @@
 import Home from './home'
 import Layout from '../components/layout'
+
 const Index = () => (
   <Layout>
     <div>
@@ -9,13 +10,22 @@ const Index = () => (
     <style jsx global>{`
       html,
       body {
+        display: flex;
+        flex-direction: column;
         padding: 0;
         margin: 0;
+        margin-bottom: auto;
         box-sizing: border-box;
         padding-bottom: 174px;
       }
-      * {
-        box-sizing: border-box;
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+      @media(max-width: 375px) {
+        *{display: block;
+        }
       }
     `}</style>
   </Layout>

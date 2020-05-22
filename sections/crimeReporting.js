@@ -40,15 +40,12 @@ const CrimeReporting = () => {
           }
 
           .pub-img {
-            width: 30%;
+            height: 289px;
             margin-top: 0;
             margin-left: 10%;
           }
-          #hover-text{
-            display: none;
-          }
           .pub-img:hover{
-            transform: scale(1.75);
+            transform: scale(1.5);
             padding: 5% 0 7.5% 10%;
             display: block;
           }

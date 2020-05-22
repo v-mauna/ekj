@@ -9,9 +9,13 @@ const Navbar = () => {
           rel='stylesheet'
         />
         {`
+          nav {
+            margin-bottom: auto;
+            display: block;
+            width: 20%;
+          }
           #topNav {
             font-size: 14px;
-            color: white;
             list-style: none;
             display: flex;
             text-align: left;
@@ -41,43 +45,36 @@ const Navbar = () => {
           }
         `}
       </style>
-      <link
-        rel='stylesheet'
-        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
-      />
-      <div className='navBar'>
-       
-        <ul id='topNav'>
-          <li>
-            <Link href='/'>
-              <a id='link' title='Home'>
+      <ul id='topNav'>
+        <li>
+          <Link href='/'>
+            <a id='link' title='Home'>
               <h1 id='name'>Ellen Killoran</h1>
-              </a>
-            </Link>{' '}
-          </li>
-          <li>
-            <Link href='/about'>
-              <a i='link' title='About'>
-                About
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/publications'>
-              <a id='link' title='Publications'>
-                Publications
-              </a>
-            </Link>{' '}
-          </li>
-          <li>
-            <Link href='/contact'>
-              <a id='link' title='Contact'>
-                Contact
-              </a>
-            </Link>
-          </li>
-        </ul>
-      </div>
+            </a>
+          </Link>{' '}
+        </li>
+        <li>
+          <Link href='/about'>
+            <a i='link' title='About'>
+              About
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href='/publications'>
+            <a id='link' title='Publications'>
+              Publications
+            </a>
+          </Link>{' '}
+        </li>
+        <li>
+          <Link href='/contact'>
+            <a id='link' title='Contact'>
+              Contact
+            </a>
+          </Link>
+        </li>
+      </ul>
     </nav>
   )
 }

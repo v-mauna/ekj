@@ -38,7 +38,7 @@ const CultureWriting = () => {
           }
 
           .pub-img {
-            width: 30%;
+            height: 289px;
             margin-top: 3em;
             margin-left: 10%;
           }

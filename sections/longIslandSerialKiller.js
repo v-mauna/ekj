@@ -41,13 +41,13 @@ const LongIsland = () => {
             }
   
             .pub-img {
-              width: 30%;
-              margin-top: 1em;
+              height: 289px;
+              margin-top:0;
               margin-left: 10%;
             }
             .pub-img:hover{
-              transform: scale(1.5);
-              padding: 10% 0 7.5% 7.5%;
+              transform: scale(1.2);
+              padding: 5% 0 5% 3%;
               display: block;
             }
           `}

@@ -1,22 +1,20 @@
 const Footer = () => (
-  <footer className='footer'>
+  <footer id='footer'>
     <style jsx>
-     
       {`
-        .footer {
-          position:fixed;
-          left:0px;
-          bottom:0px;
-          height:100px;
-          width:100%;
-          background:#0001;
+        #footer {
+          display: absolute;
+          box-sizing: border-box;
+          left: 0px;
+          bottom: 0;
+          height: 100px;
+          width: 100%;
+          background: #0001;
           color: black;
           text-align: center;
-          justify-content: center;
-
         }
 
-        #footerName{
+        #footerName {
           font-family: 'Arimo', sans-serif;
           font-size: 16px;
           font-weight: 600;
@@ -30,27 +28,31 @@ const Footer = () => (
           text-align: center;
           text-decoration: none;
           border-radius: 50%;
-          color:black;
+          color: black;
           margin-right: 1em;
           align-content: center;
         }
-        a:hover{
+        a:hover {
           color: white;
           background: black;
         }
-        #footerName{
+        #footerName {
           margin-top: 0;
         }
-
       `}
     </style>
     <div className='footer__content'>
-      <div id='footer__copyright'></div>
       <div className='footer__socials'>
-        <a className='fa fa-twitter' href='https://twitter.com/ellenkilloran'/>
-        <a className='fa fa-facebook'href='https://www.facebook.com/Snipcart/'/> 
-        <a className='fa fa-instagram' href='https://www.instagram.com/ellenkill/'/>
-        <p id='footerName'>ellenkilloran.com © 2020</p> 
+        <a className='fa fa-twitter' href='https://twitter.com/ellenkilloran' />
+        <a
+          className='fa fa-facebook'
+          href='https://www.facebook.com/Snipcart/'
+        />
+        <a
+          className='fas fa-instagram'
+          href='https://www.instagram.com/ellenkill/'
+        />
+        <p id='footerName'>ellenkilloran.com © 2020</p>
       </div>
     </div>
   </footer>

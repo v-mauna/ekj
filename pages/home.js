@@ -12,60 +12,59 @@ const Home = () => (
         rel='stylesheet'
       />
       {`
-      .container {
-        position: absolute;
-        left: 25%;
-        top: 10%;
-        margin-left: 2em;
-        font-size: 16px;
-        width: 50vw;
-        line-height: 2em;
-        justify-content: center;
-        align-content: center;
-        text-align: left;
-      }
+        .container {
+          position: absolute;
+          left: 25%;
+          margin-left: 2em;
+          font-size: 16px;
+          width: 50vw;
+          min-height: 100vh;
+          top: 10%;
+          line-height: 2em;
+          justify-content: center;
+          align-content: center;
+          text-align: left;
+        }
         p {
           font-family: 'Spectral', serif;
           font-weight: 500;
           width: 80%;
           margin-left: 10%;
         }
-        img{
+        img {
           width: 50vw;
           height: 50%;
           align-content: center;
           justify-content: center;
           align-self: center;
-    
         }
-        #media{
+        #media {
           text-align: right;
           align-content: center;
         }
-        
-        #rollingStone{
+
+        #rollingStone {
           width: 20%;
-          margin-right: 5%;
-          margin-left: 10%;
+          margin-right: 7.5%;
         }
-        #crimeOnline{
+        #crimeOnline {
           width: 10%;
+          margin-right: 7.5%;
+          margin-left: 20%;
         }
-        #forbes{
+        #forbes {
           width: 15%;
-          margin-left: 5%;
+          margin-right: 7.5%;
         }
-        #maxim{
+        #maxim {
           width: 12.5%;
-          margin-left: 5%;
         }
       `}
-
     </style>
     <Head>
       <title>Ellen Killoran</title>
     </Head>
-    <img alt='Full Length Image of Ellen Killoran' src={EKFL}/>
+    <img alt='Full Length Image of Ellen Killoran' src={EKFL} />
     <p>
       Ellen is a seasoned journalist and former media & entertainment reporter
       with a taste for true crime. Formerly a senior editor at IBTimes, her work
@@ -75,14 +74,13 @@ const Home = () => (
       Lost Girls."
     </p>
     <div>
-    <p id='media'>/as seen in/</p>
-    <div id='logos'>
-    <img id='rollingStone' src={RS}/>
-    <img id='crimeOnline' src={CrimeOnline}/>
-    <img id='forbes' src={Forbes}/>
-    <img id='maxim' src={Maxim}/>
-    </div></div>
-
+      <p id='media'>/as seen in/</p>
+      <div id='logos'>
+        <img id='crimeOnline' src={CrimeOnline} />
+        <img id='rollingStone' src={RS} />
+        <img id='forbes' src={Forbes} />
+      </div>
+    </div>
   </div>
 )
 
