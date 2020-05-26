@@ -22,7 +22,7 @@ const LongIsland = () => {
               margin: 1em 0 10px 10%;
               font-size: 18px;
               line-height: 1.5em;
-              width: 50%;
+              width: 75vw;
               letter-spacing: 1px;
               // text-transform: uppercase;
               font-weight: 800;
@@ -85,7 +85,7 @@ const LongIsland = () => {
         <div>
           <img src={ShannanGilbert} className='pub-img' />
           <p id='pub-desc'>
-            A decade later, Suffolk County police commissioner says cops are
+            A decade later, Suffolk County police commissioner says cops are<br/>
             'not certain' Shannan Gilbert wasn't a victim of the Long Island
             Serial Killer.
           </p>
@@ -100,7 +100,7 @@ const LongIsland = () => {
         <div>
           <img src={MaureenBarnes} alt='Maureen Barnes' className='pub-img' />
           <p id='pub-desc'>
-            Long Island Serial Killer victim’s sister reveals more about Maureen
+            Long Island Serial Killer victim’s sister reveals more about<br/> Maureen
             Brainard-Barnes’ mysterious disappearance
           </p>
           <a

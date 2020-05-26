@@ -48,6 +48,8 @@ const Home = () => (
 
           #logos{
             width: 50vw;
+            display: flex;
+            
           }
 
           #media {
@@ -56,28 +58,34 @@ const Home = () => (
             align-content: center;
           }
           #observer{
-          width: 15%;
-          margin-left: 3%;
-          margin-right: 3%;
-          }
-
-          #rollingStone {
-            width: 20%;
-            margin-right:3%;
-          }
-          #vulture {
-            width:15%;
-            margin-right: 3%;
-          }
-          #newsweek {
-            width: 17.5%;
-            margin-right: 3%;
-          }
-          #forbes {
             width: 15%;
-          }
-          #maxim {
-            width: 12.5%;
+            margin-left: 3%;
+            margin-right: 3%;
+            }
+            #rollingStone {
+              width: 20%;
+              margin-right:3%;
+            }
+            #vulture {
+              width:15%;
+              margin-right: 3%;
+            }
+            #newsweek {
+              width: 17.5%;
+              margin-right: 3%;
+            }
+            #forbes {
+              width: 15%;
+            }
+            #maxim {
+              width: 12.5%;
+            }
+
+          @media(max-width:414px)
+          img{
+            display:flex;
+            margin-top: 40%;
+            flex-direction: column;
           }
         `}
       </style>

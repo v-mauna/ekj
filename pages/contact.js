@@ -82,6 +82,8 @@ const Contact = () => (
               background: black;
               color: white;
             }
+           
+            }
           `}
         </style>
         <Head>
@@ -112,14 +114,6 @@ const Contact = () => (
             >
               <p id='email'>EllenKilloran@protonmail.com</p>
             </a>
-            <div className='contact-socials'>
-              <a href='https://www.instagram.com/ellenkill/'>
-                <i className='fab fa-instagram' />
-              </a>
-              <a href='https://twitter.com/ellenkilloran'>
-                <i className='fab fa-twitter' />
-              </a>
-            </div>
           </div>
         </div>
       </div>

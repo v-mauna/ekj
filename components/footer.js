@@ -17,7 +17,8 @@ const Footer = () => (
         #footerName {
           font-family: 'Arimo', sans-serif;
           font-size: 16px;
-          font-weight: 600;
+          color: white;
+          font-weight: 800;
           letter-spacing: 3px;
           padding-top: 1em;
         }
@@ -53,7 +54,7 @@ const Footer = () => (
           className='fab fa-instagram'
           href='https://www.instagram.com/ellenkill/'
         />
-        <p id='footerName'>ellenkilloran.com © 2020</p>
+        <p id='footerName'>ELLEN KILLORAN © 2020</p>
       </div>
     </div>
   </footer>

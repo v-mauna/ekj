@@ -22,7 +22,7 @@ const Publications = () => (
               margin-left: 25%;
               margin-top: -20%;
               font-size: 16px;
-              width: 50vw;
+              width: 75vw;
               line-height: 2em;
               justify-content: center;
               align-content: center;

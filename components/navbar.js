@@ -9,7 +9,8 @@ const Navbar = () => {
         @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Cormorant+Garamond&family=Julius+Sans+One&family=Spectral:wght@300&display=swap');
           nav {
             margin-bottom: auto;
-            display: block;
+            display: flex;
+            flex-direction: column;
             width: 20%;
           }
           #topNav {
@@ -41,6 +42,11 @@ const Navbar = () => {
           }
           a:hover {
             color: red;
+          }
+          @media(max-width:414px){
+            nav{
+              margin-bottom: 20%;
+            }
           }
         `}
       </style>
