@@ -9,7 +9,7 @@ const Footer = () => (
           bottom: 0;
           height: 130px;
           width: 100%;
-          background: #0002;
+          background: black;
           color: white;
           text-align: center;
         }
@@ -26,7 +26,7 @@ const Footer = () => (
           font-size: 20px;
           width: 30px;
           text-align: center;
-          color: black;
+          color: white;
           margin-top: 1em;
           text-decoration: none;
           border-radius: 50%;

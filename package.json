@@ -12,6 +12,7 @@
     "next": "9.4.1",
     "next-images": "^1.4.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-player": "^2.1.0"
   }
 }

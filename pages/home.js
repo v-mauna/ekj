@@ -4,6 +4,7 @@ import RS from '../logos/rolling_stone_logo.png'
 import Vulture from '../logos/Vulture(2).jpg'
 import Forbes from '../logos/forbes.png'
 import Newsweek from '../logos/newsweek-logo-png-transparent.png'
+import Observer from '../logos/observer.png'
 
 const Home = () => (
   <div className='wrapper'>
@@ -44,27 +45,36 @@ const Home = () => (
             justify-content: center;
             align-self: center;
           }
+
+          #logos{
+            width: 50vw;
+          }
+
           #media {
             text-align: right;
             padding-bottom: 2em;
             align-content: center;
           }
+          #observer{
+          width: 15%;
+          margin-left: 3%;
+          margin-right: 3%;
+          }
 
           #rollingStone {
             width: 20%;
-            margin-right: 7.5%;
+            margin-right:3%;
           }
           #vulture {
             width:15%;
-            margin-right: 7.5%;
+            margin-right: 3%;
           }
           #newsweek {
             width: 17.5%;
-            margin-right: 7.5%;
+            margin-right: 3%;
           }
           #forbes {
             width: 15%;
-            margin-right: 7.5%;
           }
           #maxim {
             width: 12.5%;
@@ -95,6 +105,7 @@ const Home = () => (
       <div>
         <p id='media'>/as seen in/</p>
         <div id='logos'>
+          <img id='observer' src={Observer}/>
           <img id='rollingStone' src={RS} />
           <img id='vulture' src={Vulture} />
           <img id='newsweek' src={Newsweek} />
