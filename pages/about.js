@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
-import EKFL from '../photos/CrimeCon.jpg'
+import EKFL from './images/CrimeCon.jpg'
 
 const About = () => (
   <Layout>
