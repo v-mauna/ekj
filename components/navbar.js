@@ -4,11 +4,9 @@ const Navbar = () => {
   return (
     <nav>
       <style jsx>
-        <link
-          href='https://fonts.googleapis.com/css2?family=Arimo&family=Jost:ital,wght@0,400;1,200&family=Karla&family=Spectral&display=swap'
-          rel='stylesheet'
-        />
+       
         {`
+        @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Cormorant+Garamond&family=Julius+Sans+One&family=Spectral:wght@300&display=swap');
           nav {
             margin-bottom: auto;
             display: block;
@@ -27,6 +25,7 @@ const Navbar = () => {
             margin-top: 2.5em;
             letter-spacing: 6px;
             width: 20%;
+            font-style: bold;
             font-family: 'Arimo', sans-serif;
             text-transform: uppercase;
             font-weight: 800;
@@ -57,6 +56,13 @@ const Navbar = () => {
           <Link href='/about'>
             <a i='link' title='About'>
               About
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href='/multimedia'>
+            <a id='link' title='Multimedia'>
+              Multimedia
             </a>
           </Link>
         </li>

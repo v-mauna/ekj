@@ -5,14 +5,9 @@ class MyDocument extends Document {
     return (
       <HTML lang='en'>
         <Head>
-        <script src="https://kit.fontawesome.com/6f92a9206c.js" crossorigin="anonymous"/>
-          <link
-            href='https://fonts.googleapis.com/css2?family=Alegreya&family=Arimo&family=Karla&family=Questrial&family=Spectral&display=swap'
-            rel='stylesheet'
-          />
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-          <meta
+        <script src="https://kit.fontawesome.com/6f92a9206c.js" crossOrigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Cormorant+Garamond&family=Julius+Sans+One&family=Spectral:wght@300&display=swap" rel="stylesheet"/>
+           <meta
             name='viewport'
             content='initial-scale=1.0, width=device-width'
           />

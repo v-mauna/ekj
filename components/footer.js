@@ -35,8 +35,7 @@ const Footer = () => (
         }
 
         a:hover {
-          color: white;
-          background: black;
+          color: red;
         }
         #footerName {
           margin-top: 0;
