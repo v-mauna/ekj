@@ -7,11 +7,11 @@ import LongIsland from '../sections/longIslandSerialKiller'
 
 const Publications = () => (
   <Layout>
-    <div id='publications'>
+    <div className='wrapper'>
       <div id='container'>
         <style jsx>
           {`
-            #publications {
+            .wrapper {
               display: block;
             }
 
