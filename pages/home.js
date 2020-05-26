@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import EKFL from '../public/images/EKFullLength.jpg'
-import RS from '../public/images/rolling_stone_logo.png'
-import Vulture from '../public/images/Vulture(2).jpg'
-import Forbes from '../public/images/forbes.png'
-import Newsweek from '../public/images/newsweek-logo-png-transparent.png'
-import Observer from '../public/images/observer.png'
+import EKFL from './images/EKFullLength.jpg'
+import RS from './images/rolling_stone_logo.png'
+import Vulture from './images/Vulture(2).jpg'
+import Forbes from './images/forbes.png'
+import Newsweek from './images/newsweek-logo-png-transparent.png'
+import Observer from './images/observer.png'
 
 const Home = () => (
   <div className='wrapper'>
