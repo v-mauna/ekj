@@ -43,7 +43,7 @@ const BreakingDown = () =>(
           src='https://ellenkilloran.s3.amazonaws.com/BreakDown-Pt1.mp3'
           controls
           style={{
-            width: 300,
+            width: '300',
             backgroundColor: 'black',
             marginLeft: 0,
             display: 'none',
