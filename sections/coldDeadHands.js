@@ -1,4 +1,4 @@
-import StevenKubacki from '../pages/images/StevenKubacki.jpg'
+import StevenKubacki from './images/StevenKubacki.jpg'
 
 const ColdDeadHands = () => {
   return (
