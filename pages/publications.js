@@ -19,7 +19,7 @@ const Publications = () => (
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
-              margin-left: 25%;
+              margin-left: 20%;
               margin-top: -25%;
               font-size: 16px;
               width: 75vw;

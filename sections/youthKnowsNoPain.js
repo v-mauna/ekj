@@ -30,19 +30,10 @@ const Trailer = () => (
         }
       `}
     </style>
-    <p>
-      Youth Knows No Pain Trailer
-      <a
-        onClick={() =>
-          (document.getElementById('video').style.display = 'block')
-        }
-      >
-        <i className='fab fa-youtube' />
-      </a>
-    </p>
+        
     <ReactPlayer
       id='video'
-      style={{ display: 'none', marginLeft: '10%', marginTop: '1em' }}
+      style={{ display: 'block', marginLeft: '10%', marginTop: '1em' }}
       url='https://www.youtube.com/watch?v=2pJCSnjHa4Q'
     />
   </div>

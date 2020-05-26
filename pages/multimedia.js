@@ -30,21 +30,22 @@ const Multimedia = () => (
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
-              margin-left: 25%;
+              margin-left: 20%;
               margin-top: -25%;
               margin-bottom: 20%;
               font-size: 16px;
-              width: 50vw;
+              width: 75vw;
               line-height: 2em;
               justify-content: center;
               align-content: center;
               text-align: left;
             }
 
-            .container h4 {
+            h4 {
               font-family: 'Julius Sans One', sans-serif;
               font-size: 24px;
               margin-bottom: 4%;
+              margin-left: 50%:
               font-style: bold;
               justify-content: center;
               text-align: center;
@@ -87,6 +88,11 @@ const Multimedia = () => (
           />
           <title>Ellen Killoran || Multimedia</title>
         </Head>
+        <div>
+        <h4> Youth Knows No Pain</h4>
+        <Trailer/>
+        </div>
+
         <div className='podcasts'>
           <h4>Podcasts</h4>
           <div>
@@ -117,7 +123,7 @@ const Multimedia = () => (
           </div>
           <BreakingDown/>
           <BreakingDown2/>
-          <Trailer/>
+          
         </div>
       </div>
     </div>

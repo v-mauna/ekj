@@ -66,19 +66,19 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href='/multimedia'>
-            <a id='link' title='Multimedia'>
-              Multimedia
-            </a>
-          </Link>
-        </li>
-        <li>
           <Link href='/publications'>
             <a id='link' title='Publications'>
               Publications
             </a>
           </Link>{' '}
         </li>
+        <li>
+        <Link href='/multimedia'>
+          <a id='link' title='Multimedia'>
+            Multimedia
+          </a>
+        </Link>
+      </li>
         <li>
           <Link href='/contact'>
             <a id='link' title='Contact'>
