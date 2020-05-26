@@ -1,4 +1,4 @@
-import HartFamily from './images/HartFamily.jpg'
+import HartFamily from '../pages/images/HartFamily.jpg'
 
 const CrimeReporting = () => {
   return (

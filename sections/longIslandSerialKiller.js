@@ -1,6 +1,6 @@
 
-import MaureenBarnes from './images/Maureen-Brainard-Barnes.jpg'
-import ShannanGilbert from './images/ShannanGilbert.jpg'
+import MaureenBarnes from '../pages/images/Maureen-Brainard-Barnes.jpg'
+import ShannanGilbert from '../pages/images/ShannanGilbert.jpg'
 const LongIsland = () => {
     return (
       <section>
