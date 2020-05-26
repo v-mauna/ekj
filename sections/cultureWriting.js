@@ -16,7 +16,7 @@ const CultureWriting = () => {
             letter-spacing: 2px;
           }
           #pub-desc {
-            margin: 1em 0 10px 10%;
+            margin: 2em 0 0 10%;
             font-size: 18px;
             line-height: 1.5em;
             width: 50%;

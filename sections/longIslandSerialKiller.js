@@ -17,7 +17,7 @@ const LongIsland = () => {
             letter-spacing: 2px;
           }
           #pub-desc {
-            margin: 1em 0 10px 10%;
+            margin: 2em 0 0 10%;
             font-size: 18px;
             line-height: 1.5em;
             width: 75vw;
@@ -42,8 +42,9 @@ const LongIsland = () => {
 
           .pub-img {
             height: 289px;
-            margin-top: 0;
+            margin-top: 1em;
             margin-left: 10%;
+            margin-bottom: 0;
           }
           .pub-img:hover {
             transform: scale(1.2);
@@ -67,7 +68,6 @@ const LongIsland = () => {
           </a>
         </div>
         <div>
-          <br />
           <p id='pub-desc'>
             D.A. at center of Long Island Serial Killer case charged in dirty
             cop coverup

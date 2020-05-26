@@ -32,6 +32,10 @@ const Publications = () => (
           `}
         </style>
         <Head>
+          <script
+            src='https://kit.fontawesome.com/6f92a9206c.js'
+            crossOrigin='anonymous'
+          />
           <title>Ellen Killoran || Publications</title>
           <meta name='description' content='' />
         </Head>

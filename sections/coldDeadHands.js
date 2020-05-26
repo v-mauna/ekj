@@ -43,8 +43,8 @@ const ColdDeadHands = () => {
             margin-left: 10%;
           }
           #pub-img:hover{
-            transform: scale(1.5);
-            padding: 10% 0 10% 12%;
+            transform: scale(1.25);
+            padding: 5% 0 5% 6%;
             display: block;
           }
         `}
