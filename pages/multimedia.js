@@ -1,17 +1,15 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
-import ReactPlayer from 'react-player'
-import ReactAudioPlayer from 'react-audio-player'
-
+import Trailer from '../sections/youthKnowsNoPain'
+import BreakingDown from '../sections/breakingDown'
+import BreakingDown2 from '../sections/breakingDown2'
 const Toggle = () => {
   const [Stream, toggleShow] = React.useState(true)
 
   return (
     <div>
-      <a onClick={() => toggleShow(!Stream)}>
-        {Stream ? 'Stream' : ''}
-      </a>
-      </div>
+      <a onClick={() => toggleShow(!Stream)}>{Stream ? 'Stream' : ''}</a>
+    </div>
   )
 }
 
@@ -54,11 +52,12 @@ const Multimedia = () => (
               letter-spacing: 2px;
             }
             p {
-              font-family: 'Spectral', serif;
-              font-weight: 500;
+              margin: 1em 0 10px 10%;
               font-size: 18px;
-              width: 100%;
-              margin-left: 5%;
+              line-height: 1.5em;
+              letter-spacing: 1px;
+              font-weight: 800;
+              font-family: 'Cormorant Garamond', serif;
             }
             img {
               width: 50vw;
@@ -68,14 +67,15 @@ const Multimedia = () => (
               align-self: center;
             }
             .fas,
-            .far {
+            .far, .fab{
               margin-left: 12px;
               color: black;
             }
             .fas: hover {
               color: red;
             }
-            #audio, #audio-2 {
+            #audio,
+            #audio-2 {
               width: 20%;
             }
           `}
@@ -93,7 +93,11 @@ const Multimedia = () => (
             <p>
               {' '}
               Are cops close to finding the Long Island Serial Killer?{' '}
-              <a href='https://art19.com/shows/crime-stories-with-nancy-grace/episodes/e6c6d199-3b2b-40a9-b6b5-29f15fd6a192'>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://art19.com/shows/crime-stories-with-nancy-grace/episodes/e6c6d199-3b2b-40a9-b6b5-29f15fd6a192'
+              >
                 <i className='fas fa-microphone-alt' />
               </a>
             </p>
@@ -101,53 +105,21 @@ const Multimedia = () => (
           <div>
             <p>
               {' '}
-              Are cops close to finding the Long Island Serial Killer?{' '}
-              <a href='https://art19.com/shows/crime-stories-with-nancy-grace/episodes/e6c6d199-3b2b-40a9-b6b5-29f15fd6a192'>
+              Gorgeous Colorado mom missing: Was her bike found UNDER a bridge?{' '}
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://art19.com/shows/crime-stories-with-nancy-grace/episodes/1282d933-299b-49d6-82a2-ee10364e06b6'
+              >
                 <i className='fas fa-microphone-alt' />
               </a>
             </p>
           </div>
-          <div>
-            <p>
-              Breaking Down - Part One
-              <a
-                onClick={()=>document.getElementById('audio').style.display='block'}
-              >
-                <i className='far fa-play-circle' />
-                <ReactAudioPlayer
-          id='audio'
-          src='https://ellenkilloran.s3.amazonaws.com/BreakDown-Pt1.mp3'
-          autoPlay='false'
-          controls
-          style={{ width: 300, backgroundColor: 'black', marginLeft:0,display:'none' }}
-        />
-              </a>
-            </p>
-          </div>
+          <BreakingDown/>
+          <BreakingDown2/>
+          <Trailer/>
         </div>
-        <div>
-            <p>
-              Breaking Down - Part Two
-              <a
-                onClick={()=>document.getElementById('audio-2').style.display='block'}
-              >
-                <i className='far fa-play-circle' />
-                <ReactAudioPlayer
-          id='audio-2'
-          src='https://ellenkilloran.s3.amazonaws.com/Break+Down+(3-15)+Ellen+Kiloran+Pt+2+(1).mp3'
-          autoPlay='false'
-          controls
-          style={{ width: 300, backgroundColor: 'black', marginLeft:0,display:'none' }}
-        />
-              </a>
-            </p>
-          </div>
-          <div>
-          <ReactPlayer url='https://www.youtube.com/watch?v=2pJCSnjHa4Q' />
-          </div>
-          
-        </div>
-        
+      </div>
     </div>
   </Layout>
 )
