@@ -11,6 +11,7 @@ const LongIsland = () => {
               font-family: 'Julius Sans One',sans-serif;
               font-size: 24px;
               margin-bottom: 4%;
+              margin-top: -10%;
               font-style: bold;
               justify-content: center;
               text-align: center;
