@@ -55,12 +55,11 @@ const Contact = () => (
               font-size: 22px;
               text-transform: lowercase;
               line-height: 1em;
-              letter-spacing: 2px;
+              letter-spacing: 1px;
             }
             #email {
               text-transform: uppercase;
-              letter-spacing: 6px;
-
+              letter-spacing: 3px;
               font-family: 'Spectral', serif;
             }
             .contact-socials {

@@ -57,7 +57,7 @@ const Multimedia = () => (
               font-size: 18px;
               line-height: 1.5em;
               letter-spacing: 1px;
-              font-weight: 800;
+              font-weight: 500;
               font-family: 'Cormorant Garamond', serif;
             }
             img {
@@ -116,6 +116,19 @@ const Multimedia = () => (
                 target='_blank'
                 rel='noopener noreferrer'
                 href='https://art19.com/shows/crime-stories-with-nancy-grace/episodes/1282d933-299b-49d6-82a2-ee10364e06b6'
+              >
+                <i className='fas fa-microphone-alt' />
+              </a>
+            </p>
+          </div>
+          <div>
+            <p>
+              {' '}
+              'Best friend' says killer fiance asked mistress to KILL Colorado mom Kelsey Berreth{' '}
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://art19.com/shows/crime-stories-with-nancy-grace/episodes/4d9adaaf-1fda-4ce6-8dfe-0d6c965cb51f'
               >
                 <i className='fas fa-microphone-alt' />
               </a>

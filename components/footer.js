@@ -7,16 +7,18 @@ const Footer = () => (
           box-sizing: border-box;
           left: 0px;
           bottom: 0;
-          height: 130px;
+          height: 120px;
           width: 100%;
           background: black;
           color: white;
           text-align: center;
         }
-
+        #footer:hover{
+          background: rgba(0,0,0,.3)
+        }
         #footerName {
           font-family: 'Arimo', sans-serif;
-          font-size: 16px;
+          font-size: 12px;
           color: white;
           font-weight: 800;
           letter-spacing: 3px;
@@ -45,16 +47,21 @@ const Footer = () => (
     </style>
     <div className='footer__content'>
       <div className='footer__socials'>
-        <a className='fab fa-twitter' href='https://twitter.com/ellenkilloran' />
+        <a
+          className='fab fa-twitter'
+          href='https://twitter.com/ellenkilloran'
+        />
         <a
           className='fab fa-facebook'
-          href='https://www.facebook.com/Snipcart/'
+          href='https://www.facebook.com/EllenKill/'
         />
         <a
           className='fab fa-instagram'
           href='https://www.instagram.com/ellenkill/'
         />
-        <p id='footerName'>ELLEN KILLORAN © 2020</p>
+        <p id='footerName'>
+          © 2020 || www.ellenkilloran.com || all rights reserved
+        </p>
       </div>
     </div>
   </footer>

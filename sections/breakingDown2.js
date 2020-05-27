@@ -13,7 +13,7 @@ const BreakingDown2 = () =>(
         font-size: 18px;
         line-height: 1.5em;
         letter-spacing: 1px;
-        font-weight: 800;
+        font-weight: 500;
         font-family: 'Cormorant Garamond', serif;
       }
       .fas,
