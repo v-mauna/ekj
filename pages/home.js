@@ -23,7 +23,7 @@ const Home = () => (
             flex-direction: column;
             box-sizing: border-box;
             margin-left: 25%;
-            margin-top: -20%;
+            margin-top: -25%;
             font-size: 16px;
             width: 50vw;
             line-height: 2em;

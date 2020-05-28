@@ -20,7 +20,7 @@ const Publications = () => (
               flex-direction: column;
               box-sizing: border-box;
               margin-left: 20%;
-              margin-top: -25%;
+              margin-top: -30%;
               font-size: 16px;
               width: 75vw;
               line-height: 2em;
