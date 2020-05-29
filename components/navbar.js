@@ -4,9 +4,8 @@ const Navbar = () => {
   return (
     <nav>
       <style jsx>
-       
         {`
-        @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Cormorant+Garamond&family=Julius+Sans+One&family=Spectral:wght@300&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Cormorant+Garamond&family=Julius+Sans+One&family=Spectral:wght@300&display=swap');
           nav {
             margin-bottom: auto;
             display: flex;
@@ -40,11 +39,14 @@ const Navbar = () => {
             font-weight: 500;
             font-family: 'Spectral', serif;
           }
+          .dropdown{
+            display: none;
+          }
           a:hover {
             color: red;
           }
-          @media(max-width:414px){
-            nav{
+          @media (max-width: 414px) {
+            nav {
               margin-bottom: 20%;
             }
           }
@@ -67,18 +69,48 @@ const Navbar = () => {
         </li>
         <li>
           <Link href='/publications'>
-            <a id='link' title='Publications'>
+            <a id='publications' title='Publications'>
               Publications
             </a>
-          </Link>{' '}
+            </Link>
+            </li>
+            <div className='dropdown'>
+              <li>
+                <Link href='/#longIsland'>
+                  <a id='link' title='LI Serial Killer'>
+                    Long Island Serial Killer
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/#crimeReporting'>
+                  <a id='link' title='Crime Reporting'>
+                    Crime Reporting
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/#coldDeadHands'>
+                  <a id='link' title='Cold Dead Hands'>
+                    Cold Dead Hands
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/#cultureWriting'>
+                  <a id='link' title='Culture Writing'>
+                    CultureWriting
+                  </a>
+                </Link>
         </li>
+        </div>
         <li>
-        <Link href='/multimedia'>
-          <a id='link' title='Multimedia'>
-            Multimedia
-          </a>
-        </Link>
-      </li>
+          <Link href='/multimedia'>
+            <a id='link' title='Multimedia'>
+              Multimedia
+            </a>
+          </Link>
+        </li>
         <li>
           <Link href='/contact'>
             <a id='link' title='Contact'>

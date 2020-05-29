@@ -44,13 +44,34 @@ const Multimedia = () => (
             h4 {
               font-family: 'Julius Sans One', sans-serif;
               font-size: 24px;
-              margin-bottom: 4%;
+              padding: 0;
               margin-left: 50%:
+              margin-bottom: 4%;
               font-style: bold;
               justify-content: center;
               text-align: center;
               text-transform: capitalize;
               letter-spacing: 2px;
+              line-height: 1em;
+            }
+            h6{
+              font-family: 'Arimo', sans-serif;
+              font-size: 9px;
+              margin: 0 0 4% 10%;
+              font-style: bold;
+              font-style: italic;
+              text-transform: capitalize;
+              letter-spacing: 2px;
+
+            }
+            #video-text{
+              margin: 1em 0 0 10%;
+              font-size: 20px;
+              line-height: 1em;
+              letter-spacing: 1px;
+              font-weight: 500;
+              font-family: 'Cormorant Garamond', serif;
+
             }
             p {
               margin: 1em 0 10px 10%;
@@ -89,7 +110,9 @@ const Multimedia = () => (
           <title>Ellen Killoran || Multimedia</title>
         </Head>
         <div>
-        <h4> Youth Knows No Pain</h4>
+        <h4> Video</h4>
+        <p id='video-text'> Youth Knows No Pain</p>
+        <h6>Co-Producer, HBO</h6>
         <Trailer/>
         </div>
 
@@ -111,7 +134,7 @@ const Multimedia = () => (
           <div>
             <p>
               {' '}
-              Gorgeous Colorado mom missing: Was her bike found UNDER a bridge?{' '}
+              The mysterious disappearnce of Suzanne Morphew{' '}
               <a
                 target='_blank'
                 rel='noopener noreferrer'
@@ -124,8 +147,7 @@ const Multimedia = () => (
           <div>
             <p>
               {' '}
-              'Best friend' says killer fiance asked mistress to KILL Colorado mom Kelsey Berreth{' '}
-              <a
+             Mistress is accomplice, key witness in presumed murder of missing Colorado woman Kelsey Berreth<a
                 target='_blank'
                 rel='noopener noreferrer'
                 href='https://art19.com/shows/crime-stories-with-nancy-grace/episodes/4d9adaaf-1fda-4ce6-8dfe-0d6c965cb51f'

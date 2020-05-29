@@ -1,3 +1,5 @@
+import JamesG from '../pages/images/JamesGandolfini.jpg'
+
 const CultureWriting = () => {
   return (
     <section>
@@ -42,6 +44,11 @@ const CultureWriting = () => {
             height: 289px;
             margin-top: 3em;
             margin-left: 10%;
+          }
+          .pub-img:hover {
+            transform: scale(1.2);
+            padding: 5% 0 5% 3%;
+            display: block;
           }
         `}
       </style>
@@ -109,8 +116,7 @@ const CultureWriting = () => {
         </div>
         <div>
           <p id='pub-desc'>
-          Occupy Sandy: Occupy Wall Street Finds New Purpose In NYC; Old Tensions Remain
-          </p>
+          Occupy Wall Street Finds New Purpose in NYC; Old Tensions Remain </p>
           <a
             title='IBTimes Article'
             id='pub-link'
@@ -118,6 +124,18 @@ const CultureWriting = () => {
             IBTimes
           </a>
         </div>
+        <div>
+        <img className='pub-img' src={JamesG}/>
+        <p id='pub-desc'>
+        Can Tony Soprano Ever Rest In Peace?
+        </p>
+        <a
+          title='IBTimes'
+          id='pub-link'
+          href='https://www.ibtimes.com/james-gandolfini-dead-can-tony-soprano-rest-peace-1318595'>
+          IBTimes
+        </a>
+      </div>
         <div>
           <p id='pub-desc'>
           Big Love: The Gospel According to HBO
@@ -148,7 +166,7 @@ const CultureWriting = () => {
             title='The L Magazine'
             id='pub-link'
             href='http://www.thelmagazine.com/2011/05/the-rise-and-fall-and-rise-of-jenny-slate/'>
-            Forbes
+            The L Magazine
           </a>
         </div>
       </div>

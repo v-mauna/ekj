@@ -31,7 +31,7 @@ const BreakingDown = () =>(
     `}
   </style>
     <p>
-      Breaking Down - Part One
+      Breaking it Down: The Long Island Serial Killer Case (Part One)
       <a
         onClick={() =>
           (document.getElementById('audio').style.display = 'block')
