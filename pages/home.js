@@ -18,35 +18,44 @@ const Home = () => (
           .wrapper {
             display: block;
             position: relative;
+            margin-left: 300px;
           }
 
           .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
             box-sizing: border-box;
-            margin-left: 300px;
             font-size: 16px;
             width: calc(100%-200px);
             line-height: 2em;
             justify-content: center;
             align-content: center;
             text-align: left;
-            margin-bottom: 5%;
+            margin-bottom: 100px;
           }
           p {
             font-family: 'Spectral', serif;
             font-weight: 500;
             width: 600px;
             margin-left: 50px;
+            align-self: center;
+            align-content: center;
           }
           img {
+            top: 2em;
             width: 700px;
-            margin-top: 2em;
             align-self: center;
             align-content: center;
           }
 
           #logos {
-            width: 50vw;
+            width: 600px;
+            margin-left: 350px;
             display: flex;
+            position: relative;
+            align-self: center;
+            align-content: center;
           }
 
           #media {

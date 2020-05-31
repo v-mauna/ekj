@@ -17,7 +17,7 @@ const Contact = () => (
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
-              margin-left: 25%;
+              margin-left: 200px;
               font-size: 16px;
               width: calc(100%-200px;)
               line-height: 2em;
@@ -35,6 +35,7 @@ const Contact = () => (
             #contact-img {
               position: absolute;
               top: 10%;
+              left: 300px;
               width: 300px;
               padding-top: 2em;
               padding-bottom: 2em;

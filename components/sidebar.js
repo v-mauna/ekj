@@ -14,6 +14,7 @@ const Sidebar = () => {
           }
           #sidebar{
             height: 100%;
+            postion: fixed;
           }
          #sidebar h1 {
             margin-top: 2em;
@@ -56,9 +57,6 @@ const Sidebar = () => {
               text-align:center;
               font-size: 14px;
               margin-top: 1em;
-            }
-            div.content {
-              margin-left: 0;
             }
           }
           
