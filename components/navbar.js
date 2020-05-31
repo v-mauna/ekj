@@ -2,124 +2,93 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav>
+    <sidebar>
       <style jsx>
         {`
           @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Cormorant+Garamond&family=Julius+Sans+One&family=Spectral:wght@300&display=swap');
-          nav {
+          sidebar {
             margin-bottom: auto;
             display: flex;
             flex-direction: column;
-            width: 20%;
+            width: 200px;
+            margin-left: 1em;
           }
-          #topNav {
-            font-size: 14px;
-            list-style: none;
-            display: flex;
-            text-align: left;
-            flex-direction: column;
-            width: 20%;
-            margin-top: 0;
-          }
-          #name {
+         #sidebar h1 {
             margin-top: 2.5em;
             letter-spacing: 6px;
-            width: 20%;
             font-style: bold;
+            font-size: 24px;
             font-family: 'Arimo', sans-serif;
             text-transform: uppercase;
             font-weight: 800;
           }
-          li {
-            margin: 1em;
-          }
-          a {
+          #sidebar a {
             text-decoration: none;
             color: black;
+            display: block;
+            font-size: 14px;
+            margin-bottom: 1em;
             font-weight: 500;
             font-family: 'Spectral', serif;
           }
-          .dropdown{
-            display: none;
-          }
-          a:hover {
+    
+          #sidebar a:hover {
             color: red;
           }
-          @media (max-width: 414px) {
-            nav {
-              margin-bottom: 20%;
+          @media screen and (max-width: 700px) {
+            #sidebar {
+              width: 100vw;
+              height: auto;
+              display: flex;
+              flex-direction:row;
+              position: relative;
+
             }
+
+            #sidebar h1,a {
+              text-align:center;
+              margin: 1em 1em 0 0;
+            }
+            div.content {
+              margin-left: 0;
+            }
+          }
+          
+
           }
         `}
       </style>
-      <ul id='topNav'>
-        <li>
+      <div id='sidebar'>
+
           <Link href='/'>
             <a id='link' title='Home'>
-              <h1 id='name'>Ellen Killoran</h1>
+              <h1>Ellen Killoran</h1>
             </a>
           </Link>{' '}
-        </li>
-        <li>
+
           <Link href='/about'>
-            <a i='link' title='About'>
+            <a title='About'>
               About
             </a>
           </Link>
-        </li>
-        <li>
           <Link href='/publications'>
-            <a id='publications' title='Publications'>
+            <a title='Publications'>
               Publications
             </a>
             </Link>
-            </li>
-            <div className='dropdown'>
-              <li>
-                <Link href='/#longIsland'>
-                  <a id='link' title='LI Serial Killer'>
-                    Long Island Serial Killer
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href='/#crimeReporting'>
-                  <a id='link' title='Crime Reporting'>
-                    Crime Reporting
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href='/#coldDeadHands'>
-                  <a id='link' title='Cold Dead Hands'>
-                    Cold Dead Hands
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href='/#cultureWriting'>
-                  <a id='link' title='Culture Writing'>
-                    CultureWriting
-                  </a>
-                </Link>
-        </li>
-        </div>
-        <li>
+            
           <Link href='/multimedia'>
-            <a id='link' title='Multimedia'>
+            <a title='Multimedia'>
               Multimedia
             </a>
           </Link>
-        </li>
-        <li>
-          <Link href='/contact'>
-            <a id='link' title='Contact'>
+        <Link href='/contact'>
+            <a title='Contact'>
               Contact
             </a>
           </Link>
-        </li>
-      </ul>
-    </nav>
+          </div>
+    </sidebar>
   )
 }
 
