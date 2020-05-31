@@ -17,39 +17,45 @@ const Home = () => (
         {`
           .wrapper {
             display: block;
+            position: relative;
+            margin-left: 300px;
           }
+
           .container {
             display: flex;
             flex-direction: column;
+            height: 100%;
             box-sizing: border-box;
-            margin-left: 25%;
-            margin-top: -25%;
             font-size: 16px;
-            width: 50vw;
+            width: calc(100%-200px);
             line-height: 2em;
             justify-content: center;
             align-content: center;
             text-align: left;
-            margin-bottom: 5%;
+            margin-bottom: 100px;
           }
           p {
             font-family: 'Spectral', serif;
             font-weight: 500;
-            width: 80%;
-            margin-left: 10%;
+            width: 600px;
+            margin-left: 50px;
+            align-self: center;
+            align-content: center;
           }
           img {
-            width: 50vw;
-            height: 50%;
-            align-content: center;
-            justify-content: center;
+            top: 2em;
+            width: 700px;
             align-self: center;
+            align-content: center;
           }
 
-          #logos{
-            width: 50vw;
+          #logos {
+            width: 600px;
+            margin-left: 350px;
             display: flex;
-            
+            position: relative;
+            align-self: center;
+            align-content: center;
           }
 
           #media {
@@ -57,36 +63,51 @@ const Home = () => (
             padding-bottom: 2em;
             align-content: center;
           }
-          #observer{
-            width: 15%;
+          #observer {
+            width:100px;
             margin-left: 3%;
             margin-right: 3%;
-            }
-            #rollingStone {
-              width: 20%;
-              margin-right:3%;
-            }
-            #vulture {
-              width:15%;
-              margin-right: 3%;
-            }
-            #newsweek {
-              width: 17.5%;
-              margin-right: 3%;
-            }
-            #forbes {
-              width: 15%;
-            }
-            #maxim {
-              width: 12.5%;
-            }
-
-          @media(max-width:414px)
-          img{
-            display:flex;
-            margin-top: 40%;
-            flex-direction: column;
           }
+          #rollingStone {
+            width: 134px;
+            margin-right: 3%;
+          }
+          #vulture {
+            width: 100.2px;
+            margin-right: 3%;
+          }
+          #newsweek {
+            width: 116.9px;
+            margin-right: 3%;
+          }
+          #forbes {
+            width: 100.2px;
+          }
+
+          @media (max-width: 700px){ 
+           .container {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1em;
+           }
+            .container img{
+              width: 300px;
+              margin-bottom: 20px;
+            }
+          
+          .container p{
+            font-size:10px;
+            width: 300px;
+            line-height: 1.6em;
+            margin-left: 50px;
+          }
+          
+          #observer, #rollingStone, #vulture,#newsweek,#forbes{
+            width: 25%;
+            margin-left: 1em;
+            
+          }
+        }
         `}
       </style>
       <Head>
@@ -113,7 +134,7 @@ const Home = () => (
       <div>
         <p id='media'>/as seen in/</p>
         <div id='logos'>
-          <img id='observer' src={Observer}/>
+          <img id='observer' src={Observer} />
           <img id='rollingStone' src={RS} />
           <img id='vulture' src={Vulture} />
           <img id='newsweek' src={Newsweek} />

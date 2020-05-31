@@ -8,7 +8,7 @@ const Footer = () => (
           left: 0px;
           bottom: 0;
           height: 120px;
-          width: 100%;
+          width: 100vw;
           background: black;
           color: white;
           text-align: center;
