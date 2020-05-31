@@ -16,6 +16,9 @@ const Trailer = () => (
           font-weight: 800;
           font-family: 'Cormorant Garamond', serif;
         }
+        iframe{
+          margin-left: 100px;
+        }
         .fas,
         .far,
         .fab {
@@ -30,12 +33,8 @@ const Trailer = () => (
         }
       `}
     </style>
-        
-    <ReactPlayer
-      id='video'
-      style={{ display: 'block', marginLeft: '10%', marginTop: '1em' }}
-      url='https://www.youtube.com/watch?v=2pJCSnjHa4Q'
-    />
+    <iframe width="620" height="315" src="https://www.youtube.com/embed/2pJCSnjHa4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
+   
   </div>
 )
 

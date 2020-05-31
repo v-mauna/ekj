@@ -10,17 +10,21 @@ const Index = () => (
     <style jsx global>{`
       html,
       body {
-        display: flex;
-        flex-direction: column;
+        display: block;
         padding: 0;
         margin: 0;
+        width: 100%;
         margin-bottom: auto;
         box-sizing: border-box;
+        overflow-y: scroll;
+        overflow-x: scroll;
       }
       *,
       *:before,
       *:after {
         box-sizing: inherit;
+        margin-left: 0;
+        margin-top: 0;
       }
       }
     `}</style>

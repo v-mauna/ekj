@@ -1,4 +1,4 @@
-import Navbar from './navbar'
+import Sidebar from './sidebar'
 import Footer from './footer'
 import Head from 'next/head'
 
@@ -7,7 +7,7 @@ const Layout = props => (
     <Head>
       <title>Ellen Killoran</title>
     </Head>
-    <Navbar />
+    <Sidebar />
     <div className="container">
     {props.children}
     </div>

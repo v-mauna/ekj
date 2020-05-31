@@ -30,11 +30,10 @@ const Multimedia = () => (
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
-              margin-left: 20%;
-              margin-top: -30%;
+              margin-left: 200px;
               margin-bottom: 20%;
               font-size: 16px;
-              width: 75vw;
+              width: calc(100%-200px);
               line-height: 2em;
               justify-content: center;
               align-content: center;
@@ -45,7 +44,6 @@ const Multimedia = () => (
               font-family: 'Julius Sans One', sans-serif;
               font-size: 24px;
               padding: 0;
-              margin-left: 50%:
               margin-bottom: 4%;
               font-style: bold;
               justify-content: center;
@@ -100,6 +98,16 @@ const Multimedia = () => (
             #audio-2 {
               width: 20%;
             }
+            @media (max-width: 700px){ 
+              .container {
+               display: flex;
+               flex-direction: column;
+               margin-left: 1em;
+             }
+             .container img{
+               width: 300px;
+             }
+           }
           `}
         </style>
         <Head>

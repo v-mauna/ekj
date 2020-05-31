@@ -18,14 +18,13 @@ const Contact = () => (
               flex-direction: column;
               box-sizing: border-box;
               margin-left: 25%;
-              margin-top: -20%;
               font-size: 16px;
-              width: 80vw;
+              width: calc(100%-200px;)
               line-height: 2em;
               justify-content: center;
               align-content: center;
               text-align: left;
-              margin-bottom: 5%;
+              margin-bottom: 400px;
             }
             p {
               font-family: 'Spectral', serif;
@@ -34,7 +33,9 @@ const Contact = () => (
               margin-left: 10%;
             }
             #contact-img {
-              width: 30%;
+              position: absolute;
+              top: 10%;
+              width: 300px;
               padding-top: 2em;
               padding-bottom: 2em;
               align-content: center;
@@ -48,14 +49,8 @@ const Contact = () => (
 
             #contact-info {
               position: absolute;
-              top: 30%;
+              top: 10%;
               left: 50%;
-            }
-            #tipsEmail {
-              font-size: 22px;
-              text-transform: lowercase;
-              line-height: 1em;
-              letter-spacing: 1px;
             }
             #email {
               text-transform: uppercase;
@@ -80,6 +75,24 @@ const Contact = () => (
             .fab:hover {
               background: black;
               color: white;
+            }
+            @media(max-width:700px){
+              .container {
+                display: flex;
+                flex-direction: column;
+                margin-left: 1em;
+               }
+              #contact-img{
+                width: 200px;
+              }
+              #contact-info{
+                position: relative;
+                margin-top: 100px;
+                margin-left: 0;
+                font-size: 10px;
+                color: red;
+                width: 60px;
+              }
             }
            
             }

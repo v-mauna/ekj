@@ -19,8 +19,7 @@ const About = () => (
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
-              margin-left: 25%;
-              margin-top: -25%;
+              margin-left: 200px;
               font-size: 16px;
               width: 50vw;
               line-height: 2em;
@@ -31,17 +30,41 @@ const About = () => (
             p {
               font-family: 'Spectral', serif;
               font-weight: 500;
-              width: 80%;
-              margin-left: 10%;
+              width: 600px;
+              margin-left: 100px;
               margin-bottom: 10%;
             }
             img {
-              width: 50vw;
-              height: 50%;
+              width: 700px;
+              margin-left: 200px;
               align-content: center;
               justify-content: center;
               align-self: center;
             }
+            @media (max-width: 700px){ 
+              .container {
+               display: flex;
+               flex-direction: column;
+               margin-left: 1em;
+              }
+               .container img{
+                 width: 300px;
+                 margin-bottom: 20px;
+               }
+             
+             .container p{
+               font-size:12px;
+               width: 300px;
+               line-height: 1.6em;
+               margin-left: 50px;
+             }
+             
+             #observer, #rollingStone, #vulture,#newsweek,#forbes{
+               width: 25%;
+               margin-left: 1em;
+               
+             }
+           }
           `}
         </style>
         <Head>

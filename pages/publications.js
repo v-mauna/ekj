@@ -19,16 +19,25 @@ const Publications = () => (
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
-              margin-left: 20%;
-              margin-top: -30%;
+              margin-left: 200px;
               font-size: 16px;
-              width: 75vw;
+              width: calc(100%-200px);
               line-height: 2em;
               justify-content: center;
               align-content: center;
               text-align: left;
               margin-bottom: 5%;
             }
+            @media (max-width: 700px){ 
+              #container {
+               display: flex;
+               flex-direction: column;
+               margin-left: 1em;
+             }
+             #container img{
+               width: 300px;
+             }
+           }
           `}
         </style>
         <Head>

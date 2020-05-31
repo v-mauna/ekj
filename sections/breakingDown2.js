@@ -44,14 +44,17 @@ const BreakingDown2 = () => (
           src='https://ellenkilloran.s3.amazonaws.com/Break+Down+(3-15)+Ellen+Kiloran+Pt+2+(1).mp3'
           controls
           style={{
-            width: '300',
-            backgroundColor: 'black',
-            marginLeft: 0,
+            width: '300px',
+            height: '40px',
+            marginLeft: '0',
+            marginBottom: '50px',
             display: 'none',
           }}
         />
       </a>
-    </p>
+      </p>
+
+
   </div>
 )
 
