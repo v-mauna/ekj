@@ -14,9 +14,6 @@ const Footer = () => (
           padding: 1em;
           text-align: center;
         }
-        #footer:hover{
-          background: rgba(0,0,0,.3)
-        }
         #footerName {
           font-family: 'Arimo', sans-serif;
           font-size: 12px;
@@ -28,13 +25,21 @@ const Footer = () => (
         .fab {
           padding: 10px;
           font-size: 20px;
-          width: 30px;
+          width: 40px;
           text-align: center;
-          color: white;
+          color: black;
+          background: white;
           text-decoration: none;
           border-radius: 50%;
           margin-right: 1em;
           align-content: center;
+        }
+        .footer_socials:hover > a{
+          opacity: .5;
+        }
+
+        .footer_socials:hover > a:hover{
+          opacity: 1.0;
         }
 
         a:hover {
@@ -57,7 +62,7 @@ const Footer = () => (
           href='https://twitter.com/ellenkilloran'
         />
         <a
-          className='fab fa-facebook'
+          className='fab fa-facebook-f'
           href='https://www.facebook.com/EllenKill/'
         />
         <a
