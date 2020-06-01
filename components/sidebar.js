@@ -12,7 +12,7 @@ const Sidebar = () => {
             height: 100%;
             flex-grow: 0;
             flex-shrink: 0;
-            padding: 1em;
+            padding: 0;
             text-align: left;
             display: flex;
             flex-direction: column;

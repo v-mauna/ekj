@@ -15,7 +15,6 @@ const Toggle = () => {
 
 const Multimedia = () => (
   <Layout>
-    <div className='wrapper'>
       <div className='container'>
         <style jsx>
           <link
@@ -23,9 +22,6 @@ const Multimedia = () => (
             rel='stylesheet'
           />
           {`
-            .wrapper {
-              display: block;
-            }
             .container {
               display: flex;
               flex-direction: column;
@@ -141,7 +137,7 @@ const Multimedia = () => (
           <div>
             <p>
               {' '}
-              The mysterious disappearnce of Suzanne Morphew{' '}
+              The mysterious disappearance of Suzanne Morphew{' '}
               <a
                 target='_blank'
                 rel='noopener noreferrer'
@@ -168,7 +164,6 @@ const Multimedia = () => (
           
         </div>
       </div>
-    </div>
   </Layout>
 )
 

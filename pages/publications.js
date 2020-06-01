@@ -7,7 +7,6 @@ import LongIsland from '../sections/longIslandSerialKiller'
 
 const Publications = () => (
   <Layout>
-    <div className='wrapper'>
       <div id='container'>
         <style jsx>
           {`
@@ -42,7 +41,7 @@ const Publications = () => (
             src='https://kit.fontawesome.com/6f92a9206c.js'
             crossOrigin='anonymous'
           />
-          <title>Ellen Killoran || Publications</title>
+          <title>Ellen Killoran || Publications - Long Island Serial Killer, Crime Reporting, Culture Writing</title>
           <meta name='description' content={`Ellen Killoran's investigative articles as seen in Forbes,The L Magazine, IBTimes, Rolling Stone, New York Observer, and Maxim`} />
         </Head>
         <LongIsland />
@@ -50,7 +49,6 @@ const Publications = () => (
         <CrimeReporting />
         <CultureWriting />
       </div>
-    </div>
   </Layout>
 )
 

@@ -17,9 +17,9 @@ const CultureWriting = () => {
             letter-spacing: 2px;
           }
           #pub-desc {
-            margin: 2em 0 0;
+            margin:20px 0 0;
             font-size: 18px;
-            line-height: 1.5em;
+            line-height: 1.25em;
             width: 50%;
             letter-spacing: 1px;
             font-weight: 800;
@@ -32,7 +32,7 @@ const CultureWriting = () => {
             font-size: 12px;
             font-style: italic;
             font-family: 'Cormorant Garamond', serif;
-            margin: 0 0 20%;
+            margin: 0 0 2em;
             border-bottom: 1px dashed;
           }
           #writings #pub-link:hover {
@@ -42,6 +42,7 @@ const CultureWriting = () => {
           .pub-img {
             height: 289px;
             margin-top: 3em;
+            padding: 0;
           }
           .pub-img:hover {
             transform: scale(1.2);

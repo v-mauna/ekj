@@ -41,14 +41,12 @@ const Home = () => (
             width: 700px;
           }
           #main-img {
-            position: relative;
-            top: 0;
             margin-bottom: 20px;
             width: 700px;
           }
 
           #logos {
-            width: 800px;
+            width: 650px;
             margin-top: 20px;
             display: flex;
             position: relative;
@@ -57,7 +55,12 @@ const Home = () => (
             margin-bottom: 100px;
           }
 
+          #logos > img:hover {
+           transform: translate(0,-20%);
+          }
+
           #media {
+            width: 650px;
             text-align: right;
             padding-bottom: 2em;
             margin-top: 2em;
@@ -102,12 +105,10 @@ const Home = () => (
             .container p {
               font-size: 14px;
               width: 400px;
-              margin-left: 0;
               line-height: 1.6em;
             }
             #logos {
               width: 300px;
-              margin-left: 0;
               align-self: center;
               justify-content: center;
               display: flex;
@@ -151,11 +152,11 @@ const Home = () => (
       <div>
         <p id='media'>/as seen in/</p>
         <div id='logos'>
-          <img id='observer' src={Observer} />
-          <img id='rollingStone' src={RS} />
-          <img id='vulture' src={Vulture} />
-          <img id='newsweek' src={Newsweek} />
-          <img id='forbes' src={Forbes} />
+          <img alt='Observer Logo' id='observer' src={Observer} />
+          <img alt='Rolling Stone Logo' id='rollingStone' src={RS} />
+          <img alt='Vulture Logo' id='vulture' src={Vulture} />
+          <img alt='Newsweek Logo' id='newsweek' src={Newsweek} />
+          <img alt='Forbes Logo' id='forbes' src={Forbes} />
         </div>
       </div>
     </div>

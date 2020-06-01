@@ -24,26 +24,20 @@ const Footer = () => (
         }
         .fab {
           padding: 10px;
-          font-size: 20px;
-          width: 40px;
+          font-size: 18px;
+          width: 30px;
           text-align: center;
-          color: black;
-          background: white;
+          color: white;
           text-decoration: none;
           border-radius: 50%;
           margin-right: 1em;
           align-content: center;
         }
-        .footer_socials:hover > a{
-          opacity: .5;
-        }
 
-        .footer_socials:hover > a:hover{
-          opacity: 1.0;
-        }
 
-        a:hover {
+        a:hover{
           color: red;
+          transform: translate(0,-10%);
         }
         #footerName {
           margin-top: 0;
