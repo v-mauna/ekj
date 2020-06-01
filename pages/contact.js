@@ -10,7 +10,7 @@ const Contact = () => (
           {`
             .container {
               display: flex;
-              flex-direction: column;
+              flex-direction: row;
               flex-wrap: wrap;
               box-sizing: border-box;
               font-size: 16px;
@@ -32,11 +32,24 @@ const Contact = () => (
             }
             #contact-img{
               width: 300px;
+              display: flex;
+              margin: 0;
+              padding: 0em;
+            }
+            #contact-info{
+              padding: 1em;
+              justify-content: center;
+              align-content: center;
+              align-items: center;
+              
             }
             #email {
-              text-transform: uppercase;
-              letter-spacing: 3px;
+              position: relative;
+              letter-spacing: 1px;
               font-family: 'Spectral', serif;
+            }
+            #email:hover{
+              color: rgba(0,0,.3,.3);
             }
             
             @media(max-width:700px){
@@ -66,8 +79,8 @@ const Contact = () => (
           ></script>
           <title>Ellen Killoran || Contact</title>
         </Head>
+        <img src={Headshot} alt='Ellen Killoran Headshot' id='contact-img'/>
           <div id='contact-info'>
-          <img src={Headshot} alt='Ellen Killoran Headshot' id='contact-img'/>
             <a
               target='_blank'
               rel='noopener noreferrer'
@@ -83,7 +96,7 @@ const Contact = () => (
                 rel='noopener noreferrer'
                 href='mailto:EllenKilloran@protonmail.com'
               >
-                <p id='email'>EllenKilloran@protonmail.com</p>
+                <p id='email'>ellenkilloran@protonmail.com</p>
               </a>
             </div>
           </div>
