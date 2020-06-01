@@ -18,10 +18,6 @@ const Sidebar = () => {
             flex-direction: column;
             align-items: left;
           }
-          #sidebar{
-            height: 100%;
-            postion: fixed;
-          }
          #sidebar h1 {
             margin-top: 2em;
             letter-spacing: 6px;
@@ -42,26 +38,37 @@ const Sidebar = () => {
             font-weight: 500;
             font-family: 'Spectral', serif;
           }
+          #sidebar a.active{
+            color: rgba(0,0,0,0.5);
+          }
     
           #sidebar a:hover {
             color: red;
           }
           @media screen and (max-width: 700px) {
+            .sidebar{
+              padding: 0;
+            }
             #sidebar {
               width: 100vw;
               display: flex;
               flex-direction:row;
               position: relative;
-              padding-right: 1em;
+              padding: 0;
+              margin-left: 0;
 
+            }
+            #sidebar h1{
+              letter-spacing: 2px;
             }
 
             #sidebar h1,a {
               display: flex;
               flex-direction:row;
               position: relative;
-              text-align:center;
-              font-size: 14px;
+              text-align:left;
+              font-size: 12px;
+              margin-left: 0;
               margin-top: 1em;
             }
           }

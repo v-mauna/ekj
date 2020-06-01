@@ -111,7 +111,7 @@ const Home = () => (
               align-self: center;
               justify-content: center;
               display: flex;
-              flex-direction: column;
+              flex-wrap: wrap;
             }
             #observer,
             #rollingStone,
