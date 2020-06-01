@@ -134,7 +134,7 @@ const Home = () => (
         />
         <meta
           name='description'
-          content='Ellen Killoran is a seasoned journalist and former media & entertainment reported features in Forbes, Rolling Stone,
+          content='Ellen Killoran is a seasoned journalist and former media & entertainment reporter featured in Forbes, Rolling Stone,
         IBTimes, Maxim, Crime Online, & The L Magazine'
         />
         <title>Ellen Killoran || Home</title>

@@ -30,7 +30,7 @@ const Trailer = () => (
         }
       `}
     </style>
-    <iframe width="620" height="315" src="https://www.youtube.com/embed/2pJCSnjHa4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
+    <iframe title='Youth Knows No Pain Trailer' width="620" height="315" src="https://www.youtube.com/embed/2pJCSnjHa4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
    
   </div>
 )

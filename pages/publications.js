@@ -43,7 +43,7 @@ const Publications = () => (
             crossOrigin='anonymous'
           />
           <title>Ellen Killoran || Publications</title>
-          <meta name='description' content='' />
+          <meta name='description' content={`Ellen Killoran's investigative articles as seen in Forbes,The L Magazine, IBTimes, Rolling Stone, New York Observer, and Maxim`} />
         </Head>
         <LongIsland />
         <ColdDeadHands />
