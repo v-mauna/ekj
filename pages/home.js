@@ -100,7 +100,7 @@ const Home = () => (
             }
 
             .container p {
-              font-size: 10px;
+              font-size: 14px;
               width: 400px;
               margin-left: 0;
               line-height: 1.6em;

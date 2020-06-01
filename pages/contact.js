@@ -44,6 +44,7 @@ const Contact = () => (
                 display: flex;
                 flex-direction: column;
                 align-content: left;
+                font-size: 14px;
                 margin-bottom: 100px;
                }
               #contact-img{

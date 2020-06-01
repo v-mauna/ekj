@@ -63,7 +63,7 @@ const About = () => (
             }
 
             .container p {
-              font-size: 12px;
+              font-size: 14px;
               width: 400px;
               left: 0;
               margin-left: 0;

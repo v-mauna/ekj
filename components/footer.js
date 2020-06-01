@@ -8,9 +8,10 @@ const Footer = () => (
           left: 0px;
           bottom: 0;
           height: 120px;
-          width: 100vw;
+          min-width: 100vw;
           background: black;
           color: white;
+          padding: 1em;
           text-align: center;
         }
         #footer:hover{
@@ -30,7 +31,6 @@ const Footer = () => (
           width: 30px;
           text-align: center;
           color: white;
-          margin-top: 1em;
           text-decoration: none;
           border-radius: 50%;
           margin-right: 1em;
