@@ -19,12 +19,9 @@ const Publications = () => (
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
-              margin-left: 200px;
               font-size: 16px;
               width: calc(100%-200px);
               line-height: 2em;
-              justify-content: center;
-              align-content: center;
               text-align: left;
               margin-bottom: 5%;
             }

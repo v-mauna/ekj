@@ -30,7 +30,6 @@ const Multimedia = () => (
               display: flex;
               flex-direction: column;
               box-sizing: border-box;
-              margin-left: 200px;
               margin-bottom: 20%;
               font-size: 16px;
               width: calc(100%-200px);
@@ -55,7 +54,7 @@ const Multimedia = () => (
             h6{
               font-family: 'Arimo', sans-serif;
               font-size: 9px;
-              margin: 0 0 4% 10%;
+              margin: 0 0 4%;
               font-style: bold;
               font-style: italic;
               text-transform: capitalize;
@@ -63,7 +62,7 @@ const Multimedia = () => (
 
             }
             #video-text{
-              margin: 1em 0 0 10%;
+              margin: 1em 0 0 ;
               font-size: 20px;
               line-height: 1em;
               letter-spacing: 1px;
@@ -72,7 +71,7 @@ const Multimedia = () => (
 
             }
             p {
-              margin: 1em 0 10px 10%;
+              margin: 1em 0 10px;
               font-size: 18px;
               line-height: 1.5em;
               letter-spacing: 1px;

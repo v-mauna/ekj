@@ -9,7 +9,7 @@ const BreakingDown = () =>(
     />
     {`
       p {
-        margin: 1em 0 10px 10%;
+        margin: 1em 0 10px;
         font-size: 18px;
         line-height: 1.5em;
         letter-spacing: 1px;

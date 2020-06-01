@@ -8,9 +8,15 @@ const Sidebar = () => {
           @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Cormorant+Garamond&family=Julius+Sans+One&family=Spectral:wght@300&display=swap');
           .sidebar {
             margin: 0;
-            padding: 0;
             width: 300px;
             height: 100%;
+            flex-grow: 0;
+            flex-shrink: 0;
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
           }
           #sidebar{
             height: 100%;
@@ -70,6 +76,7 @@ const Sidebar = () => {
             <h1>Ellen Killoran</h1>
           </a>
         </Link>{' '}
+        <br/>
         <Link href='/about'>
           <a title='About'>About</a>
         </Link>

@@ -43,6 +43,11 @@ const Footer = () => (
         #footerName {
           margin-top: 0;
         }
+        @media(max-width:700px){
+          #footer{
+            width: 100vw;
+          }
+        }
       `}
     </style>
     <div className='footer__content'>

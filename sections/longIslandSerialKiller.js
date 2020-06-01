@@ -12,17 +12,15 @@ const LongIsland = () => {
             margin-bottom: 4%;
             font-style: bold;
             justify-content: center;
-            text-align: center;
             text-transform: capitalize;
             letter-spacing: 2px;
           }
           #pub-desc {
-            margin: 2em 0 0 10%;
+            margin: 2em 0 0;
             font-size: 18px;
             line-height: 1.5em;
             width: 75vw;
             letter-spacing: 1px;
-            // text-transform: uppercase;
             font-weight: 800;
             font-family: 'Cormorant Garamond', serif;
           }
@@ -33,7 +31,7 @@ const LongIsland = () => {
             font-size: 12px;
             font-style: italic;
             font-family: 'Cormorant Garamond', serif;
-            margin: 0 0 20% 10%;
+            margin: 0 0 20%;
             border-bottom: 1px dashed;
           }
           #writings #pub-link:hover {
@@ -43,7 +41,6 @@ const LongIsland = () => {
           .pub-img {
             height: 289px;
             margin-top: 1em;
-            margin-left: 10%;
             margin-bottom: 0;
           }
           .pub-img:hover {

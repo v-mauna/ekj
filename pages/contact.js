@@ -5,94 +5,53 @@ import Layout from '../components/layout'
 
 const Contact = () => (
   <Layout>
-    <div id='wrapper'>
       <div className='container'>
         <style jsx>
           {`
-            #wrapper {
-              display: block;
-            }
-
             .container {
               display: flex;
               flex-direction: column;
+              flex-wrap: wrap;
               box-sizing: border-box;
-              margin-left: 200px;
               font-size: 16px;
-              width: calc(100%-200px;)
+              width: calc(100%-${'200px'};)
               line-height: 2em;
-              justify-content: center;
-              align-content: center;
               text-align: left;
-              margin-bottom: 400px;
+              margin-top: 2em;
+              margin-bottom: 100px;
             }
             p {
               font-family: 'Spectral', serif;
               font-weight: 500;
               width: 80%;
-              margin-left: 10%;
             }
-            #contact-img {
-              position: absolute;
-              top: 10%;
-              left: 300px;
-              width: 300px;
-              padding-top: 2em;
-              padding-bottom: 2em;
-              align-content: center;
-              justify-content: center;
-              align-self: center;
-            }
+  
             a {
               text-decoration: none;
               color: black;
             }
-
-            #contact-info {
-              position: absolute;
-              top: 10%;
-              left: 50%;
+            #contact-img{
+              width: 300px;
             }
             #email {
               text-transform: uppercase;
               letter-spacing: 3px;
               font-family: 'Spectral', serif;
             }
-            .contact-socials {
-              margin-left: 40%;
-            }
-
-            .fab {
-              padding: 10px;
-              font-size: 20px;
-              width: 30px;
-              text-align: center;
-              color: black;
-              text-decoration: none;
-              border-radius: 50%;
-              margin-right: 1em;
-              align-content: center;
-            }
-            .fab:hover {
-              background: black;
-              color: white;
-            }
+            
             @media(max-width:700px){
               .container {
                 display: flex;
                 flex-direction: column;
-                margin-left: 1em;
+                align-content: left;
+                margin-bottom: 100px;
                }
               #contact-img{
+                display: flex;
+                flex-direction: column;
+                left: 20px;
                 width: 200px;
-              }
-              #contact-info{
-                position: relative;
-                margin-top: 100px;
-                margin-left: 0;
-                font-size: 10px;
-                color: red;
-                width: 60px;
+                
               }
             }
            
@@ -106,31 +65,29 @@ const Contact = () => (
           ></script>
           <title>Ellen Killoran || Contact</title>
         </Head>
-        <div>
-          <img src={Headshot} id='contact-img' />
-        </div>
-        <div id='contact-info'>
-          <a
-            target='_blank'
-            rel='noopener noreferrer'
-            href='mailto:ekilloran@crimeonline.com'
-          >
-            <p id='email'>ekilloran@crimeonline.com</p>
-          </a>
-
-          <div>
-            {' '}
+          <div id='contact-info'>
+          <img src={Headshot} alt='Ellen Killoran Headshot' id='contact-img'/>
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='mailto:EllenKilloran@protonmail.com'
+              href='mailto:ekilloran@crimeonline.com'
             >
-              <p id='email'>EllenKilloran@protonmail.com</p>
+              <p id='email'>ekilloran@crimeonline.com</p>
             </a>
+
+            <div>
+              {' '}
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='mailto:EllenKilloran@protonmail.com'
+              >
+                <p id='email'>EllenKilloran@protonmail.com</p>
+              </a>
+            </div>
           </div>
-        </div>
+        
       </div>
-    </div>
   </Layout>
 )
 

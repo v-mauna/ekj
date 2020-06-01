@@ -9,15 +9,12 @@ const Trailer = () => (
       />
       {`
         p {
-          margin: 1em 0 10px 10%;
+          margin: 1em 0 10px;
           font-size: 18px;
           line-height: 1.5em;
           letter-spacing: 1px;
           font-weight: 800;
           font-family: 'Cormorant Garamond', serif;
-        }
-        iframe{
-          margin-left: 100px;
         }
         .fas,
         .far,
