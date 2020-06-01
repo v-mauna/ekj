@@ -57,8 +57,7 @@ const About = () => (
               align-content: center;
             }
             #main-img {
-              padding: 50px 0 50px 30px;
-              align-self: center;
+              margin-bottom: 20px;
               left: 0;
               width: 400px;
             }
@@ -69,7 +68,6 @@ const About = () => (
               left: 0;
               margin-left: 0;
               text-align: left;
-              margin-top: 00px;
               line-height: 1.6em;
             }
            
