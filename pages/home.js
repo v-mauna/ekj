@@ -114,6 +114,7 @@ const Home = () => (
             .container p {
               font-size: 14px;
               width: 400px;
+              padding: 1em;
               line-height: 1.6em;
             }
             #logos {
@@ -122,6 +123,10 @@ const Home = () => (
               justify-content: center;
               display: flex;
               flex-wrap: wrap;
+            }
+            #media{
+              width: 400px;
+              padding: 1em;
             }
             #observer,
             #rollingStone,
