@@ -5,9 +5,9 @@ import Layout from '../components/layout'
 
 const Contact = () => (
   <Layout>
-      <div className='container'>
-        <style jsx>
-          {`
+    <div className='container'>
+      <style jsx>
+        {`
             .container {
               display: flex;
               flex-direction: row;
@@ -41,12 +41,24 @@ const Contact = () => (
               justify-content: center;
               align-content: center;
               align-items: center;
-              
+                  
+            }
+            #contact-info h4{
+              font-family: 'Arimo', sans-serif;
+              text-transform: uppercase;
+              font-weight: 800;
+              letter-spacing: 3px;
             }
             #email {
               position: relative;
-              letter-spacing: 1px;
-              font-family: 'Spectral', serif;
+              letter-spacing: 3px;
+              border: 1px solid black;
+              padding: 1em;
+              width: 60px;
+              text-align:center;
+              align-content:center;
+              justify-content: center;
+              
             }
             #email:hover{
               color: rgba(0,0,.3,.3);
@@ -71,37 +83,27 @@ const Contact = () => (
            
             }
           `}
-        </style>
-        <Head>
-          <script
-            src='https://kit.fontawesome.com/6f92a9206c.js'
-            crossorigin='anonymous'
-          ></script>
-          <title>Ellen Killoran || Contact</title>
-        </Head>
-        <img src={Headshot} alt='Ellen Killoran Headshot' id='contact-img'/>
-          <div id='contact-info'>
-            <a
-              target='_blank'
-              rel='noopener noreferrer'
-              href='mailto:ekilloran@crimeonline.com'
-            >
-              <p id='email'>ekilloran@crimeonline.com</p>
-            </a>
-
-            <div>
-              {' '}
-              <a
-                target='_blank'
-                rel='noopener noreferrer'
-                href='mailto:EllenKilloran@protonmail.com'
-              >
-                <p id='email'>ellenkilloran@protonmail.com</p>
-              </a>
-            </div>
-          </div>
-        
+      </style>
+      <Head>
+        <script
+          src='https://kit.fontawesome.com/6f92a9206c.js'
+          crossorigin='anonymous'
+        ></script>
+        <title>Ellen Killoran || Contact</title>
+      </Head>
+      <img src={Headshot} alt='Ellen Killoran Headshot' id='contact-img' />
+      <div id='contact-info'>
+        <h4>Contact</h4>
+        <p>Send your tips and story ideas to: </p>
+        <a
+          target='_blank'
+          rel='noopener'
+          href='mailto:ekilloran@gmail.com'
+        >
+          <p id='email'>e-mail</p>
+        </a>
       </div>
+    </div>
   </Layout>
 )
 

@@ -16,13 +16,12 @@ const BreakingDown2 = () => (
           font-weight: 500;
           font-family: 'Cormorant Garamond', serif;
         }
-        .fas,
-        .far,
-        .fab {
+        .
+        .far{
           margin-left: 12px;
           color: black;
         }
-        .fas: hover {
+        .far: hover {
           color: red;
         }
         #audio-2 {

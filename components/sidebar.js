@@ -38,9 +38,15 @@ const Sidebar = () => {
             font-weight: 500;
             font-family: 'Spectral', serif;
           }
-          #sidebar a.active{
-            color: rgba(0,0,0,0.5);
+
+          #sidebar:hover > a{
+            opacity: .4;
           }
+
+          #sidebar:hover > a:hover{
+            opacity: 1.0;
+          }
+
     
           #sidebar a:hover {
             color: red;

@@ -38,11 +38,20 @@ const Home = () => (
           .container p {
             font-family: 'Spectral', serif;
             font-weight: 500;
+            text-align:center;
             width: 700px;
           }
           #main-img {
             margin-bottom: 20px;
             width: 700px;
+          }
+          a{
+            text-decoration: none;
+            color: black;
+          }
+          a:hover{
+            transition: 3s ease;
+            color: red;
           }
 
           #logos {
@@ -56,7 +65,7 @@ const Home = () => (
           }
 
           #logos > img:hover {
-           transform: translate(0,-20%);
+            transform: translate(0, -20%);
           }
 
           #media {
@@ -142,12 +151,12 @@ const Home = () => (
       </Head>
       <img id='main-img' alt='Full Length Image of Ellen Killoran' src={EKFL} />
       <p>
-        Ellen Killoran is a seasoned journalist and former media & entertainment
-        reporter with a taste for true crime. Formerly a senior editor at
-        IBTimes, her work has appeared in Forbes, Rolling Stone, Maxim, NYMag,
-        Indiewire, and more. She co-produced the HBO documentary "Youth Knows No
-        Pain" and appeared in a documentary series that aired alongside the
-        Lifetime movie "Manson's Lost Girls."
+        Ellen Killoran is a crime journalist with a previous background in
+        culture and media reporting. Currently a staff reporter and editor at
+        CrimeOnline, her work has been seen in Forbes, Rolling Stone, the New
+        York Observer, Vulture, Newsweek and more. She
+        is always on the hunt for new leads on undercovered stories. If you have
+        a tip or a story idea, please reach out <strong><a target='_blank' rel='noopener noreferrer' href='mailto:ekilloran@gmail.com'>here</a></strong>.
       </p>
       <div>
         <p id='media'>/as seen in/</p>

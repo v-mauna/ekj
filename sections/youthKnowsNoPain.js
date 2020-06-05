@@ -16,18 +16,6 @@ const Trailer = () => (
           font-weight: 800;
           font-family: 'Cormorant Garamond', serif;
         }
-        .fas,
-        .far,
-        .fab {
-          margin-left: 12px;
-          color: black;
-        }
-        .fas: hover {
-          color: red;
-        }
-        #audio-2 {
-          width: 20%;
-        }
       `}
     </style>
     <iframe title='Youth Knows No Pain Trailer' width="620" height="315" src="https://www.youtube.com/embed/2pJCSnjHa4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>

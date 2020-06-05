@@ -21,7 +21,7 @@ const BreakingDown = () =>(
         margin-left: 12px;
         color: black;
       }
-      .fas: hover {
+      .far:hover {
         color: red;
       }
       #audio,

@@ -18,7 +18,7 @@ const Multimedia = () => (
       <div className='container'>
         <style jsx>
           <link
-            href='https://fonts.googleapis.com/css2?family=Arimo&family=Jost:ital,wght@0,400;1,200&family=Karla&family=Spectral&display=swap'
+            href='https://fonts.googleapis.com/css2?family=Arimo&family=Playfair+Display&family=Jost:ital,wght@0,400;1,200&family=Karla&family=Spectral&display=swap'
             rel='stylesheet'
           />
           {`
@@ -71,7 +71,6 @@ const Multimedia = () => (
               font-size: 18px;
               line-height: 1.5em;
               letter-spacing: 1px;
-              font-weight: 500;
               font-family: 'Cormorant Garamond', serif;
             }
             img {
@@ -86,7 +85,7 @@ const Multimedia = () => (
               margin-left: 12px;
               color: black;
             }
-            .fas: hover {
+            .fas:hover, .far:hover, .fab:hover {
               color: red;
             }
             #audio,
@@ -110,7 +109,7 @@ const Multimedia = () => (
             src='https://kit.fontawesome.com/6f92a9206c.js'
             crossOrigin='anonymous'
           />
-          <title>Ellen Killoran || Multimedia</title>
+          <title>Ellen Killoran || Multimedia - Video & Featured Podcasts </title>
         </Head>
         <div>
         <h4> Video</h4>
