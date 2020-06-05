@@ -37,31 +37,23 @@ const Contact = () => (
               padding: 0em;
             }
             #contact-info{
-              padding: 1em;
+              padding: 2em;
+              display: flex;
+              flex-direction: column;
               justify-content: center;
               align-content: center;
-              align-items: center;
-                  
             }
+
             #contact-info h4{
               font-family: 'Arimo', sans-serif;
               text-transform: uppercase;
               font-weight: 800;
               letter-spacing: 3px;
             }
-            #email {
-              position: relative;
-              letter-spacing: 3px;
-              border: 1px solid black;
-              padding: 1em;
-              width: 60px;
-              text-align:center;
-              align-content:center;
-              justify-content: center;
-              
-            }
-            #email:hover{
-              color: rgba(0,0,.3,.3);
+            #contact-info a:hover{
+              color: red;
+              font-style: italic; 
+              transform: translate(0,-10%);           
             }
             
             @media(max-width:700px){
@@ -94,14 +86,12 @@ const Contact = () => (
       <img src={Headshot} alt='Ellen Killoran Headshot' id='contact-img' />
       <div id='contact-info'>
         <h4>Contact</h4>
-        <p>Send your tips and story ideas to: </p>
-        <a
-          target='_blank'
-          rel='noopener'
-          href='mailto:ekilloran@gmail.com'
-        >
-          <p id='email'>e-mail</p>
-        </a>
+        <p>
+          Send your tips and story ideas to
+          <a target='_blank' title='e-mail' rel='noopener' href='mailto:ekilloran@gmail.com'>
+            {' '}ekilloran@gmail.com
+          </a>
+        </p>
       </div>
     </div>
   </Layout>
