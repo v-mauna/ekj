@@ -11,6 +11,7 @@ class MyDocument extends Document {
             name='viewport'
             content='initial-scale=1.0, width=device-width'
           />
+          <meta name="theme-color" content="black"/>
           <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
           <meta
             name='description'
