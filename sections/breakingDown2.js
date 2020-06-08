@@ -18,10 +18,10 @@ const BreakingDown2 = () => (
         }
         .
         .far{
-          margin-left: 12px;
+          margin-left: 1em;
           color: black;
         }
-        .far: hover {
+        .far:hover {
           color: red;
         }
         #audio-2 {
@@ -31,7 +31,7 @@ const BreakingDown2 = () => (
     </style>
 
     <p>
-      Breaking it Down: The Long Island Serial Killer Case (Part One)
+      Breaking it Down: The Long Island Serial Killer Case (Part Two)
       <a
         onClick={() =>
           (document.getElementById('audio-2').style.display = 'block')

@@ -35,8 +35,8 @@ const CultureWriting = () => {
             margin: 0 0 2em;
             border-bottom: 1px dashed;
           }
-          #writings #pub-link:hover {
-            color: rgba(0, 0, 0, 0.5);
+          #pub-link:hover {
+            color:red;
           }
 
           .pub-img {

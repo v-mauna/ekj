@@ -27,14 +27,15 @@ const Contact = () => (
             }
   
             a {
-              text-decoration: none;
               color: black;
+              line-height: 2em;
             }
+
             #contact-img{
               width: 300px;
               display: flex;
               margin: 0;
-              padding: 0em;
+              padding: 1em;
             }
             #contact-info{
               padding: 2em;
@@ -92,6 +93,13 @@ const Contact = () => (
             {' '}ekilloran@gmail.com
           </a>
         </p>
+
+        <h4>Follow</h4>
+        <p>
+         <a href='https://www.instagram.com/ellenkill/'>instagram</a><br/>
+        <a href='https://www.facebook.com/EllenKill/'>facebook</a><br/>
+        <a href='https://twitter.com/ellenkilloran'>twitter</a><br/></p>
+       
       </div>
     </div>
   </Layout>
