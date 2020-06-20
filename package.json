@@ -8,12 +8,20 @@
     "start": "next start"
   },
   "dependencies": {
-    "eslint": "^7.1.0",
     "next": "9.4.1",
     "next-images": "^1.4.0",
     "react": "16.13.1",
     "react-audio-player": "^0.13.0",
     "react-dom": "16.13.1",
-    "react-player": "^2.1.0"
+    "react-player": "^2.1.0",
+    "vercel": "^19.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^2.5.0"
   }
 }

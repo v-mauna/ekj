@@ -59,7 +59,7 @@ const LongIsland = () => {
           <a
             title='Rolling Stone Article'
             id='pub-link'
-            href="href='https://www.rollingstone.com/culture/culture-features/why-hasnt-the-long-island-serial-killer-case-been-solved-119604/'"
+            href='https://www.rollingstone.com/culture/culture-features/why-hasnt-the-long-island-serial-killer-case-been-solved-119604/'
           >
             Rolling Stone
           </a>
