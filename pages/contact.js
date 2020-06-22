@@ -10,8 +10,6 @@ const Contact = () => (
         {`
             .container {
               display: flex;
-              flex-direction: row;
-              flex-wrap: wrap;
               box-sizing: border-box;
               font-size: 16px;
               width: calc(100%-${'200px'};)
@@ -35,7 +33,17 @@ const Contact = () => (
               width: 300px;
               display: flex;
               margin: 0;
-              padding: 1em;
+              padding: 0;
+            }
+            #photo-credit{
+              font-size: 10px;
+              text-align: left;
+              position: absolute;
+              top: 480px;
+              font-family: 'Arial',sans-serif;
+              text-transform: uppercase;
+              margin-bottom: 20px;
+              color: #5c677d;
             }
             #contact-info{
               padding: 2em;
@@ -60,7 +68,7 @@ const Contact = () => (
             @media(max-width:700px){
               .container {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 align-content: left;
                 font-size: 14px;
                 margin-bottom: 100px;
@@ -68,9 +76,16 @@ const Contact = () => (
               #contact-img{
                 display: flex;
                 flex-direction: column;
-                left: 20px;
+                padding: 1em;
                 width: 200px;
-                
+                height: 392px;
+                margin-bottom: 0;
+              }
+
+              #photo-credit{
+                top: 85%;
+                margin-left: 2em;
+                font-size: .5em;
               }
             }
            
@@ -85,6 +100,7 @@ const Contact = () => (
         <title>Ellen Killoran || Contact</title>
       </Head>
       <img src={Headshot} alt='Ellen Killoran Headshot' id='contact-img' />
+      <span id='photo-credit'>Alex Tween</span>
       <div id='contact-info'>
         <h4>Contact</h4>
         <p>

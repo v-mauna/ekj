@@ -33,8 +33,15 @@ const About = () => (
         #main-img {
           position: relative;
           top: 0;
-          margin-bottom: 20px;
           width: 700px;
+        }
+        #photo-credit{
+          font-size: 10px;
+          text-align: left;
+          font-family: 'Arial',sans-serif;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          color: #5c677d;
         }
 
 
@@ -48,9 +55,16 @@ const About = () => (
               align-content: center;
             }
             #main-img {
-              margin-bottom: 20px;
               left: 0;
               width: 400px;
+            }
+            #photo-credit{
+              font-size: .5em;
+              text-align: left;
+              font-family: 'Arial',sans-serif;
+              text-transform: uppercase;
+              margin-bottom: 20px;
+              color: #5c677d;
             }
 
             .container p {
@@ -78,6 +92,7 @@ const About = () => (
         <title>Ellen Killoran || About</title>
       </Head>
       <img id='main-img' alt='Ellen Killoran at CrimeCon' src={CrimeCon} />
+      <span id='photo-credit'>Leigh Egan</span>
       <p>
       Ellen Killoran is a crime journalist with a previous background in
       culture and media reporting. Currently a staff reporter and editor at

@@ -30,6 +30,14 @@ const Footer = () => (
           font-weight: 800;
           letter-spacing: 3px;
         }
+        .credit-link{
+          text-decoration: none;
+          font-family: 'Arimo', sans-serif;
+          color: black;
+          margin-top: .5em;
+          font-size: 8px;
+
+        }
        .footer__socials:hover > a{
           opacity: .8;
         }
@@ -85,6 +93,7 @@ const Footer = () => (
         />
         <p id='footerName'>
         © Ellen Killoran 2020
+        <p className='credit-link'> site created by <a target='blank' rel='noopener' className='credit-link' title='vanessamauna.com' href='http://vanessamauna.com'>vanessa mauna</a> </p>
         </p>
       </div>
     </div>

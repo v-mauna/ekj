@@ -42,7 +42,6 @@ const Home = () => (
             width: 700px;
           }
           #main-img {
-            margin-bottom: 20px;
             width: 700px;
           }
           a{
@@ -95,6 +94,14 @@ const Home = () => (
           #forbes {
             width: 100.2px;
           }
+          #photo-credit{
+            font-size: 10px;
+            font-family: 'Arial',sans-serif;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: #5c677d;
+            width:500px;
+          }
 
           @media (max-width: 700px) {
             .container {
@@ -106,17 +113,21 @@ const Home = () => (
               align-content: center;
             }
             #main-img {
-              margin-bottom: 20px;
+              margin-bottom:0;
               left: 0;
               width: 400px;
             }
-
+            #photo-credit{
+              font-size: .5em;
+            }
+         
             .container p {
               font-size: 14px;
               width: 400px;
               padding: 1em;
               line-height: 1.6em;
-            }
+            } 
+            
             #logos {
               width: 300px;
               align-self: center;
@@ -155,6 +166,7 @@ const Home = () => (
         <title>Ellen Killoran || Home</title>
       </Head>
       <img id='main-img' alt='Full Length Image of Ellen Killoran' src={EKFL} />
+      <span id='photo-credit'>Alex Tween</span>
       <p>
         Ellen Killoran is a crime journalist with a previous background in
         culture and media reporting. Currently a staff reporter and editor at
