@@ -1,1 +1,0 @@
-Portfolio Site made for crime journalist and investigate reporter Ellen Killoran. 
